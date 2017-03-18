@@ -1,0 +1,1681 @@
+date,key,value
+09/01/16,Le Pen,1
+09/01/16,Fillon,4
+09/01/16,Sarkozy,3
+09/01/16,Juppe,1
+09/01/16,Macron,8
+09/01/16,Hollande,2
+09/01/16,Valls,1
+09/01/16,Montebourg,0
+09/01/16,Hamon,0
+09/01/16,Melenchon,0
+09/02/16,Le Pen,0
+09/02/16,Fillon,1
+09/02/16,Sarkozy,2
+09/02/16,Juppe,0
+09/02/16,Macron,1
+09/02/16,Hollande,3
+09/02/16,Valls,0
+09/02/16,Montebourg,0
+09/02/16,Hamon,0
+09/02/16,Melenchon,0
+09/03/16,Le Pen,4
+09/03/16,Fillon,2
+09/03/16,Sarkozy,1
+09/03/16,Juppe,1
+09/03/16,Macron,0
+09/03/16,Hollande,0
+09/03/16,Valls,0
+09/03/16,Montebourg,0
+09/03/16,Hamon,0
+09/03/16,Melenchon,0
+09/04/16,Le Pen,0
+09/04/16,Fillon,0
+09/04/16,Sarkozy,3
+09/04/16,Juppe,0
+09/04/16,Macron,4
+09/04/16,Hollande,3
+09/04/16,Valls,0
+09/04/16,Montebourg,0
+09/04/16,Hamon,0
+09/04/16,Melenchon,0
+09/05/16,Le Pen,0
+09/05/16,Fillon,0
+09/05/16,Sarkozy,2
+09/05/16,Juppe,0
+09/05/16,Macron,0
+09/05/16,Hollande,1
+09/05/16,Valls,0
+09/05/16,Montebourg,0
+09/05/16,Hamon,0
+09/05/16,Melenchon,0
+09/06/16,Le Pen,0
+09/06/16,Fillon,1
+09/06/16,Sarkozy,5
+09/06/16,Juppe,1
+09/06/16,Macron,1
+09/06/16,Hollande,4
+09/06/16,Valls,1
+09/06/16,Montebourg,0
+09/06/16,Hamon,0
+09/06/16,Melenchon,0
+09/07/16,Le Pen,1
+09/07/16,Fillon,0
+09/07/16,Sarkozy,4
+09/07/16,Juppe,1
+09/07/16,Macron,2
+09/07/16,Hollande,9
+09/07/16,Valls,0
+09/07/16,Montebourg,2
+09/07/16,Hamon,0
+09/07/16,Melenchon,0
+09/08/16,Le Pen,0
+09/08/16,Fillon,0
+09/08/16,Sarkozy,3
+09/08/16,Juppe,2
+09/08/16,Macron,0
+09/08/16,Hollande,14
+09/08/16,Valls,1
+09/08/16,Montebourg,0
+09/08/16,Hamon,0
+09/08/16,Melenchon,1
+09/09/16,Le Pen,0
+09/09/16,Fillon,0
+09/09/16,Sarkozy,1
+09/09/16,Juppe,1
+09/09/16,Macron,1
+09/09/16,Hollande,3
+09/09/16,Valls,0
+09/09/16,Montebourg,0
+09/09/16,Hamon,0
+09/09/16,Melenchon,0
+09/10/16,Le Pen,0
+09/10/16,Fillon,0
+09/10/16,Sarkozy,0
+09/10/16,Juppe,0
+09/10/16,Macron,1
+09/10/16,Hollande,0
+09/10/16,Valls,0
+09/10/16,Montebourg,1
+09/10/16,Hamon,1
+09/10/16,Melenchon,1
+09/11/16,Le Pen,1
+09/11/16,Fillon,0
+09/11/16,Sarkozy,4
+09/11/16,Juppe,1
+09/11/16,Macron,1
+09/11/16,Hollande,1
+09/11/16,Valls,0
+09/11/16,Montebourg,1
+09/11/16,Hamon,1
+09/11/16,Melenchon,1
+09/12/16,Le Pen,4
+09/12/16,Fillon,2
+09/12/16,Sarkozy,5
+09/12/16,Juppe,0
+09/12/16,Macron,2
+09/12/16,Hollande,2
+09/12/16,Valls,0
+09/12/16,Montebourg,1
+09/12/16,Hamon,0
+09/12/16,Melenchon,0
+09/13/16,Le Pen,1
+09/13/16,Fillon,0
+09/13/16,Sarkozy,1
+09/13/16,Juppe,4
+09/13/16,Macron,1
+09/13/16,Hollande,1
+09/13/16,Valls,3
+09/13/16,Montebourg,0
+09/13/16,Hamon,0
+09/13/16,Melenchon,0
+09/14/16,Le Pen,0
+09/14/16,Fillon,1
+09/14/16,Sarkozy,0
+09/14/16,Juppe,6
+09/14/16,Macron,1
+09/14/16,Hollande,2
+09/14/16,Valls,1
+09/14/16,Montebourg,2
+09/14/16,Hamon,0
+09/14/16,Melenchon,0
+09/15/16,Le Pen,0
+09/15/16,Fillon,2
+09/15/16,Sarkozy,8
+09/15/16,Juppe,1
+09/15/16,Macron,1
+09/15/16,Hollande,3
+09/15/16,Valls,1
+09/15/16,Montebourg,2
+09/15/16,Hamon,1
+09/15/16,Melenchon,3
+09/16/16,Le Pen,2
+09/16/16,Fillon,0
+09/16/16,Sarkozy,10
+09/16/16,Juppe,0
+09/16/16,Macron,0
+09/16/16,Hollande,2
+09/16/16,Valls,1
+09/16/16,Montebourg,0
+09/16/16,Hamon,0
+09/16/16,Melenchon,1
+09/17/16,Le Pen,1
+09/17/16,Fillon,0
+09/17/16,Sarkozy,0
+09/17/16,Juppe,0
+09/17/16,Macron,1
+09/17/16,Hollande,1
+09/17/16,Valls,0
+09/17/16,Montebourg,1
+09/17/16,Hamon,0
+09/17/16,Melenchon,1
+09/18/16,Le Pen,3
+09/18/16,Fillon,0
+09/18/16,Sarkozy,2
+09/18/16,Juppe,2
+09/18/16,Macron,0
+09/18/16,Hollande,3
+09/18/16,Valls,1
+09/18/16,Montebourg,0
+09/18/16,Hamon,0
+09/18/16,Melenchon,0
+09/19/16,Le Pen,1
+09/19/16,Fillon,0
+09/19/16,Sarkozy,3
+09/19/16,Juppe,0
+09/19/16,Macron,1
+09/19/16,Hollande,1
+09/19/16,Valls,0
+09/19/16,Montebourg,0
+09/19/16,Hamon,0
+09/19/16,Melenchon,1
+09/20/16,Le Pen,2
+09/20/16,Fillon,0
+09/20/16,Sarkozy,3
+09/20/16,Juppe,2
+09/20/16,Macron,2
+09/20/16,Hollande,0
+09/20/16,Valls,0
+09/20/16,Montebourg,0
+09/20/16,Hamon,0
+09/20/16,Melenchon,1
+09/21/16,Le Pen,1
+09/21/16,Fillon,1
+09/21/16,Sarkozy,6
+09/21/16,Juppe,1
+09/21/16,Macron,1
+09/21/16,Hollande,0
+09/21/16,Valls,1
+09/21/16,Montebourg,0
+09/21/16,Hamon,1
+09/21/16,Melenchon,0
+09/22/16,Le Pen,3
+09/22/16,Fillon,0
+09/22/16,Sarkozy,4
+09/22/16,Juppe,3
+09/22/16,Macron,4
+09/22/16,Hollande,4
+09/22/16,Valls,0
+09/22/16,Montebourg,8
+09/22/16,Hamon,0
+09/22/16,Melenchon,1
+09/23/16,Le Pen,4
+09/23/16,Fillon,0
+09/23/16,Sarkozy,1
+09/23/16,Juppe,5
+09/23/16,Macron,0
+09/23/16,Hollande,3
+09/23/16,Valls,0
+09/23/16,Montebourg,3
+09/23/16,Hamon,0
+09/23/16,Melenchon,0
+09/24/16,Le Pen,0
+09/24/16,Fillon,0
+09/24/16,Sarkozy,2
+09/24/16,Juppe,2
+09/24/16,Macron,1
+09/24/16,Hollande,0
+09/24/16,Valls,0
+09/24/16,Montebourg,0
+09/24/16,Hamon,0
+09/24/16,Melenchon,0
+09/25/16,Le Pen,0
+09/25/16,Fillon,0
+09/25/16,Sarkozy,1
+09/25/16,Juppe,0
+09/25/16,Macron,2
+09/25/16,Hollande,0
+09/25/16,Valls,0
+09/25/16,Montebourg,0
+09/25/16,Hamon,0
+09/25/16,Melenchon,0
+09/26/16,Le Pen,0
+09/26/16,Fillon,0
+09/26/16,Sarkozy,4
+09/26/16,Juppe,3
+09/26/16,Macron,3
+09/26/16,Hollande,5
+09/26/16,Valls,0
+09/26/16,Montebourg,0
+09/26/16,Hamon,0
+09/26/16,Melenchon,0
+09/27/16,Le Pen,0
+09/27/16,Fillon,1
+09/27/16,Sarkozy,5
+09/27/16,Juppe,2
+09/27/16,Macron,0
+09/27/16,Hollande,3
+09/27/16,Valls,0
+09/27/16,Montebourg,1
+09/27/16,Hamon,0
+09/27/16,Melenchon,0
+09/28/16,Le Pen,0
+09/28/16,Fillon,1
+09/28/16,Sarkozy,2
+09/28/16,Juppe,4
+09/28/16,Macron,0
+09/28/16,Hollande,3
+09/28/16,Valls,0
+09/28/16,Montebourg,0
+09/28/16,Hamon,0
+09/28/16,Melenchon,0
+09/29/16,Le Pen,0
+09/29/16,Fillon,3
+09/29/16,Sarkozy,9
+09/29/16,Juppe,3
+09/29/16,Macron,0
+09/29/16,Hollande,0
+09/29/16,Valls,0
+09/29/16,Montebourg,0
+09/29/16,Hamon,0
+09/29/16,Melenchon,0
+09/30/16,Le Pen,0
+09/30/16,Fillon,2
+09/30/16,Sarkozy,4
+09/30/16,Juppe,2
+09/30/16,Macron,0
+09/30/16,Hollande,2
+09/30/16,Valls,0
+09/30/16,Montebourg,0
+09/30/16,Hamon,0
+09/30/16,Melenchon,0
+10/01/16,Le Pen,0
+10/01/16,Fillon,0
+10/01/16,Sarkozy,1
+10/01/16,Juppe,1
+10/01/16,Macron,1
+10/01/16,Hollande,0
+10/01/16,Valls,0
+10/01/16,Montebourg,0
+10/01/16,Hamon,0
+10/01/16,Melenchon,0
+10/02/16,Le Pen,0
+10/02/16,Fillon,1
+10/02/16,Sarkozy,3
+10/02/16,Juppe,4
+10/02/16,Macron,3
+10/02/16,Hollande,5
+10/02/16,Valls,1
+10/02/16,Montebourg,2
+10/02/16,Hamon,0
+10/02/16,Melenchon,0
+10/03/16,Le Pen,2
+10/03/16,Fillon,0
+10/03/16,Sarkozy,2
+10/03/16,Juppe,1
+10/03/16,Macron,2
+10/03/16,Hollande,3
+10/03/16,Valls,1
+10/03/16,Montebourg,2
+10/03/16,Hamon,0
+10/03/16,Melenchon,0
+10/04/16,Le Pen,0
+10/04/16,Fillon,2
+10/04/16,Sarkozy,1
+10/04/16,Juppe,4
+10/04/16,Macron,6
+10/04/16,Hollande,1
+10/04/16,Valls,0
+10/04/16,Montebourg,0
+10/04/16,Hamon,0
+10/04/16,Melenchon,0
+10/05/16,Le Pen,2
+10/05/16,Fillon,1
+10/05/16,Sarkozy,7
+10/05/16,Juppe,2
+10/05/16,Macron,5
+10/05/16,Hollande,2
+10/05/16,Valls,0
+10/05/16,Montebourg,0
+10/05/16,Hamon,0
+10/05/16,Melenchon,0
+10/06/16,Le Pen,0
+10/06/16,Fillon,0
+10/06/16,Sarkozy,2
+10/06/16,Juppe,6
+10/06/16,Macron,0
+10/06/16,Hollande,1
+10/06/16,Valls,1
+10/06/16,Montebourg,0
+10/06/16,Hamon,0
+10/06/16,Melenchon,1
+10/07/16,Le Pen,1
+10/07/16,Fillon,0
+10/07/16,Sarkozy,3
+10/07/16,Juppe,2
+10/07/16,Macron,1
+10/07/16,Hollande,4
+10/07/16,Valls,0
+10/07/16,Montebourg,0
+10/07/16,Hamon,0
+10/07/16,Melenchon,1
+10/08/16,Le Pen,1
+10/08/16,Fillon,1
+10/08/16,Sarkozy,3
+10/08/16,Juppe,4
+10/08/16,Macron,0
+10/08/16,Hollande,0
+10/08/16,Valls,0
+10/08/16,Montebourg,1
+10/08/16,Hamon,0
+10/08/16,Melenchon,0
+10/09/16,Le Pen,0
+10/09/16,Fillon,1
+10/09/16,Sarkozy,2
+10/09/16,Juppe,1
+10/09/16,Macron,0
+10/09/16,Hollande,0
+10/09/16,Valls,0
+10/09/16,Montebourg,0
+10/09/16,Hamon,0
+10/09/16,Melenchon,1
+10/10/16,Le Pen,1
+10/10/16,Fillon,3
+10/10/16,Sarkozy,12
+10/10/16,Juppe,7
+10/10/16,Macron,1
+10/10/16,Hollande,0
+10/10/16,Valls,0
+10/10/16,Montebourg,0
+10/10/16,Hamon,0
+10/10/16,Melenchon,1
+10/11/16,Le Pen,2
+10/11/16,Fillon,1
+10/11/16,Sarkozy,4
+10/11/16,Juppe,4
+10/11/16,Macron,2
+10/11/16,Hollande,2
+10/11/16,Valls,0
+10/11/16,Montebourg,1
+10/11/16,Hamon,0
+10/11/16,Melenchon,0
+10/12/16,Le Pen,0
+10/12/16,Fillon,1
+10/12/16,Sarkozy,1
+10/12/16,Juppe,7
+10/12/16,Macron,1
+10/12/16,Hollande,4
+10/12/16,Valls,0
+10/12/16,Montebourg,1
+10/12/16,Hamon,0
+10/12/16,Melenchon,0
+10/13/16,Le Pen,0
+10/13/16,Fillon,1
+10/13/16,Sarkozy,4
+10/13/16,Juppe,3
+10/13/16,Macron,0
+10/13/16,Hollande,4
+10/13/16,Valls,0
+10/13/16,Montebourg,1
+10/13/16,Hamon,0
+10/13/16,Melenchon,1
+10/14/16,Le Pen,0
+10/14/16,Fillon,0
+10/14/16,Sarkozy,4
+10/14/16,Juppe,3
+10/14/16,Macron,1
+10/14/16,Hollande,3
+10/14/16,Valls,0
+10/14/16,Montebourg,1
+10/14/16,Hamon,0
+10/14/16,Melenchon,0
+10/15/16,Le Pen,0
+10/15/16,Fillon,0
+10/15/16,Sarkozy,0
+10/15/16,Juppe,0
+10/15/16,Macron,0
+10/15/16,Hollande,1
+10/15/16,Valls,0
+10/15/16,Montebourg,0
+10/15/16,Hamon,0
+10/15/16,Melenchon,3
+10/16/16,Le Pen,1
+10/16/16,Fillon,0
+10/16/16,Sarkozy,0
+10/16/16,Juppe,2
+10/16/16,Macron,1
+10/16/16,Hollande,5
+10/16/16,Valls,0
+10/16/16,Montebourg,0
+10/16/16,Hamon,0
+10/16/16,Melenchon,2
+10/17/16,Le Pen,1
+10/17/16,Fillon,0
+10/17/16,Sarkozy,1
+10/17/16,Juppe,0
+10/17/16,Macron,1
+10/17/16,Hollande,8
+10/17/16,Valls,2
+10/17/16,Montebourg,0
+10/17/16,Hamon,0
+10/17/16,Melenchon,0
+10/18/16,Le Pen,1
+10/18/16,Fillon,2
+10/18/16,Sarkozy,8
+10/18/16,Juppe,10
+10/18/16,Macron,7
+10/18/16,Hollande,6
+10/18/16,Valls,1
+10/18/16,Montebourg,0
+10/18/16,Hamon,0
+10/18/16,Melenchon,2
+10/19/16,Le Pen,0
+10/19/16,Fillon,2
+10/19/16,Sarkozy,1
+10/19/16,Juppe,1
+10/19/16,Macron,1
+10/19/16,Hollande,4
+10/19/16,Valls,0
+10/19/16,Montebourg,0
+10/19/16,Hamon,0
+10/19/16,Melenchon,0
+10/20/16,Le Pen,1
+10/20/16,Fillon,2
+10/20/16,Sarkozy,5
+10/20/16,Juppe,4
+10/20/16,Macron,0
+10/20/16,Hollande,3
+10/20/16,Valls,1
+10/20/16,Montebourg,0
+10/20/16,Hamon,0
+10/20/16,Melenchon,0
+10/21/16,Le Pen,1
+10/21/16,Fillon,0
+10/21/16,Sarkozy,2
+10/21/16,Juppe,3
+10/21/16,Macron,0
+10/21/16,Hollande,3
+10/21/16,Valls,1
+10/21/16,Montebourg,0
+10/21/16,Hamon,0
+10/21/16,Melenchon,0
+10/22/16,Le Pen,0
+10/22/16,Fillon,0
+10/22/16,Sarkozy,1
+10/22/16,Juppe,0
+10/22/16,Macron,0
+10/22/16,Hollande,0
+10/22/16,Valls,3
+10/22/16,Montebourg,0
+10/22/16,Hamon,0
+10/22/16,Melenchon,0
+10/23/16,Le Pen,0
+10/23/16,Fillon,2
+10/23/16,Sarkozy,1
+10/23/16,Juppe,2
+10/23/16,Macron,0
+10/23/16,Hollande,1
+10/23/16,Valls,2
+10/23/16,Montebourg,1
+10/23/16,Hamon,1
+10/23/16,Melenchon,0
+10/24/16,Le Pen,2
+10/24/16,Fillon,0
+10/24/16,Sarkozy,1
+10/24/16,Juppe,1
+10/24/16,Macron,0
+10/24/16,Hollande,3
+10/24/16,Valls,4
+10/24/16,Montebourg,0
+10/24/16,Hamon,0
+10/24/16,Melenchon,0
+10/25/16,Le Pen,1
+10/25/16,Fillon,0
+10/25/16,Sarkozy,3
+10/25/16,Juppe,7
+10/25/16,Macron,2
+10/25/16,Hollande,6
+10/25/16,Valls,1
+10/25/16,Montebourg,0
+10/25/16,Hamon,0
+10/25/16,Melenchon,1
+10/26/16,Le Pen,0
+10/26/16,Fillon,0
+10/26/16,Sarkozy,3
+10/26/16,Juppe,2
+10/26/16,Macron,2
+10/26/16,Hollande,2
+10/26/16,Valls,3
+10/26/16,Montebourg,0
+10/26/16,Hamon,0
+10/26/16,Melenchon,0
+10/27/16,Le Pen,0
+10/27/16,Fillon,2
+10/27/16,Sarkozy,6
+10/27/16,Juppe,3
+10/27/16,Macron,0
+10/27/16,Hollande,2
+10/27/16,Valls,0
+10/27/16,Montebourg,0
+10/27/16,Hamon,0
+10/27/16,Melenchon,0
+10/28/16,Le Pen,0
+10/28/16,Fillon,3
+10/28/16,Sarkozy,5
+10/28/16,Juppe,2
+10/28/16,Macron,0
+10/28/16,Hollande,4
+10/28/16,Valls,3
+10/28/16,Montebourg,0
+10/28/16,Hamon,0
+10/28/16,Melenchon,0
+10/29/16,Le Pen,0
+10/29/16,Fillon,0
+10/29/16,Sarkozy,4
+10/29/16,Juppe,0
+10/29/16,Macron,0
+10/29/16,Hollande,4
+10/29/16,Valls,1
+10/29/16,Montebourg,0
+10/29/16,Hamon,0
+10/29/16,Melenchon,0
+10/30/16,Le Pen,1
+10/30/16,Fillon,0
+10/30/16,Sarkozy,3
+10/30/16,Juppe,1
+10/30/16,Macron,0
+10/30/16,Hollande,0
+10/30/16,Valls,0
+10/30/16,Montebourg,1
+10/30/16,Hamon,0
+10/30/16,Melenchon,1
+10/31/16,Le Pen,1
+10/31/16,Fillon,1
+10/31/16,Sarkozy,3
+10/31/16,Juppe,2
+10/31/16,Macron,0
+10/31/16,Hollande,6
+10/31/16,Valls,1
+10/31/16,Montebourg,0
+10/31/16,Hamon,0
+10/31/16,Melenchon,0
+11/01/16,Le Pen,1
+11/01/16,Fillon,0
+11/01/16,Sarkozy,1
+11/01/16,Juppe,4
+11/01/16,Macron,0
+11/01/16,Hollande,3
+11/01/16,Valls,1
+11/01/16,Montebourg,0
+11/01/16,Hamon,0
+11/01/16,Melenchon,1
+11/02/16,Le Pen,0
+11/02/16,Fillon,2
+11/02/16,Sarkozy,8
+11/02/16,Juppe,8
+11/02/16,Macron,0
+11/02/16,Hollande,2
+11/02/16,Valls,0
+11/02/16,Montebourg,0
+11/02/16,Hamon,0
+11/02/16,Melenchon,2
+11/03/16,Le Pen,1
+11/03/16,Fillon,0
+11/03/16,Sarkozy,5
+11/03/16,Juppe,6
+11/03/16,Macron,2
+11/03/16,Hollande,5
+11/03/16,Valls,2
+11/03/16,Montebourg,2
+11/03/16,Hamon,0
+11/03/16,Melenchon,1
+11/04/16,Le Pen,0
+11/04/16,Fillon,1
+11/04/16,Sarkozy,4
+11/04/16,Juppe,4
+11/04/16,Macron,1
+11/04/16,Hollande,3
+11/04/16,Valls,0
+11/04/16,Montebourg,0
+11/04/16,Hamon,0
+11/04/16,Melenchon,3
+11/05/16,Le Pen,0
+11/05/16,Fillon,0
+11/05/16,Sarkozy,1
+11/05/16,Juppe,2
+11/05/16,Macron,2
+11/05/16,Hollande,1
+11/05/16,Valls,0
+11/05/16,Montebourg,1
+11/05/16,Hamon,0
+11/05/16,Melenchon,4
+11/06/16,Le Pen,0
+11/06/16,Fillon,0
+11/06/16,Sarkozy,1
+11/06/16,Juppe,2
+11/06/16,Macron,1
+11/06/16,Hollande,3
+11/06/16,Valls,3
+11/06/16,Montebourg,0
+11/06/16,Hamon,0
+11/06/16,Melenchon,0
+11/07/16,Le Pen,0
+11/07/16,Fillon,0
+11/07/16,Sarkozy,2
+11/07/16,Juppe,5
+11/07/16,Macron,0
+11/07/16,Hollande,3
+11/07/16,Valls,2
+11/07/16,Montebourg,1
+11/07/16,Hamon,1
+11/07/16,Melenchon,3
+11/08/16,Le Pen,0
+11/08/16,Fillon,0
+11/08/16,Sarkozy,5
+11/08/16,Juppe,4
+11/08/16,Macron,3
+11/08/16,Hollande,4
+11/08/16,Valls,0
+11/08/16,Montebourg,0
+11/08/16,Hamon,0
+11/08/16,Melenchon,2
+11/09/16,Le Pen,3
+11/09/16,Fillon,2
+11/09/16,Sarkozy,6
+11/09/16,Juppe,2
+11/09/16,Macron,2
+11/09/16,Hollande,4
+11/09/16,Valls,0
+11/09/16,Montebourg,0
+11/09/16,Hamon,0
+11/09/16,Melenchon,1
+11/10/16,Le Pen,2
+11/10/16,Fillon,2
+11/10/16,Sarkozy,4
+11/10/16,Juppe,3
+11/10/16,Macron,2
+11/10/16,Hollande,0
+11/10/16,Valls,1
+11/10/16,Montebourg,0
+11/10/16,Hamon,1
+11/10/16,Melenchon,0
+11/11/16,Le Pen,0
+11/11/16,Fillon,2
+11/11/16,Sarkozy,1
+11/11/16,Juppe,1
+11/11/16,Macron,0
+11/11/16,Hollande,2
+11/11/16,Valls,1
+11/11/16,Montebourg,0
+11/11/16,Hamon,0
+11/11/16,Melenchon,1
+11/12/16,Le Pen,1
+11/12/16,Fillon,0
+11/12/16,Sarkozy,3
+11/12/16,Juppe,2
+11/12/16,Macron,1
+11/12/16,Hollande,0
+11/12/16,Valls,0
+11/12/16,Montebourg,0
+11/12/16,Hamon,0
+11/12/16,Melenchon,0
+11/13/16,Le Pen,2
+11/13/16,Fillon,2
+11/13/16,Sarkozy,2
+11/13/16,Juppe,1
+11/13/16,Macron,0
+11/13/16,Hollande,3
+11/13/16,Valls,2
+11/13/16,Montebourg,0
+11/13/16,Hamon,0
+11/13/16,Melenchon,0
+11/14/16,Le Pen,2
+11/14/16,Fillon,5
+11/14/16,Sarkozy,5
+11/14/16,Juppe,7
+11/14/16,Macron,1
+11/14/16,Hollande,3
+11/14/16,Valls,3
+11/14/16,Montebourg,0
+11/14/16,Hamon,0
+11/14/16,Melenchon,1
+11/15/16,Le Pen,1
+11/15/16,Fillon,5
+11/15/16,Sarkozy,8
+11/15/16,Juppe,12
+11/15/16,Macron,6
+11/15/16,Hollande,4
+11/15/16,Valls,3
+11/15/16,Montebourg,1
+11/15/16,Hamon,0
+11/15/16,Melenchon,1
+11/16/16,Le Pen,10
+11/16/16,Fillon,4
+11/16/16,Sarkozy,6
+11/16/16,Juppe,5
+11/16/16,Macron,30
+11/16/16,Hollande,8
+11/16/16,Valls,3
+11/16/16,Montebourg,0
+11/16/16,Hamon,0
+11/16/16,Melenchon,1
+11/17/16,Le Pen,3
+11/17/16,Fillon,5
+11/17/16,Sarkozy,7
+11/17/16,Juppe,7
+11/17/16,Macron,12
+11/17/16,Hollande,3
+11/17/16,Valls,2
+11/17/16,Montebourg,0
+11/17/16,Hamon,1
+11/17/16,Melenchon,2
+11/18/16,Le Pen,0
+11/18/16,Fillon,10
+11/18/16,Sarkozy,4
+11/18/16,Juppe,2
+11/18/16,Macron,7
+11/18/16,Hollande,0
+11/18/16,Valls,1
+11/18/16,Montebourg,0
+11/18/16,Hamon,0
+11/18/16,Melenchon,1
+11/19/16,Le Pen,0
+11/19/16,Fillon,1
+11/19/16,Sarkozy,0
+11/19/16,Juppe,0
+11/19/16,Macron,2
+11/19/16,Hollande,3
+11/19/16,Valls,0
+11/19/16,Montebourg,0
+11/19/16,Hamon,0
+11/19/16,Melenchon,0
+11/20/16,Le Pen,1
+11/20/16,Fillon,13
+11/20/16,Sarkozy,9
+11/20/16,Juppe,6
+11/20/16,Macron,1
+11/20/16,Hollande,1
+11/20/16,Valls,2
+11/20/16,Montebourg,0
+11/20/16,Hamon,0
+11/20/16,Melenchon,1
+11/21/16,Le Pen,2
+11/21/16,Fillon,51
+11/21/16,Sarkozy,24
+11/21/16,Juppe,20
+11/21/16,Macron,3
+11/21/16,Hollande,6
+11/21/16,Valls,1
+11/21/16,Montebourg,1
+11/21/16,Hamon,0
+11/21/16,Melenchon,1
+11/22/16,Le Pen,3
+11/22/16,Fillon,50
+11/22/16,Sarkozy,3
+11/22/16,Juppe,22
+11/22/16,Macron,1
+11/22/16,Hollande,2
+11/22/16,Valls,1
+11/22/16,Montebourg,0
+11/22/16,Hamon,0
+11/22/16,Melenchon,0
+11/23/16,Le Pen,0
+11/23/16,Fillon,43
+11/23/16,Sarkozy,4
+11/23/16,Juppe,20
+11/23/16,Macron,1
+11/23/16,Hollande,2
+11/23/16,Valls,1
+11/23/16,Montebourg,0
+11/23/16,Hamon,0
+11/23/16,Melenchon,1
+11/24/16,Le Pen,1
+11/24/16,Fillon,38
+11/24/16,Sarkozy,1
+11/24/16,Juppe,27
+11/24/16,Macron,3
+11/24/16,Hollande,5
+11/24/16,Valls,1
+11/24/16,Montebourg,1
+11/24/16,Hamon,0
+11/24/16,Melenchon,1
+11/25/16,Le Pen,1
+11/25/16,Fillon,45
+11/25/16,Sarkozy,4
+11/25/16,Juppe,26
+11/25/16,Macron,5
+11/25/16,Hollande,4
+11/25/16,Valls,2
+11/25/16,Montebourg,0
+11/25/16,Hamon,0
+11/25/16,Melenchon,0
+11/26/16,Le Pen,0
+11/26/16,Fillon,7
+11/26/16,Sarkozy,0
+11/26/16,Juppe,2
+11/26/16,Macron,1
+11/26/16,Hollande,2
+11/26/16,Valls,3
+11/26/16,Montebourg,0
+11/26/16,Hamon,0
+11/26/16,Melenchon,4
+11/27/16,Le Pen,1
+11/27/16,Fillon,30
+11/27/16,Sarkozy,2
+11/27/16,Juppe,14
+11/27/16,Macron,0
+11/27/16,Hollande,3
+11/27/16,Valls,4
+11/27/16,Montebourg,0
+11/27/16,Hamon,0
+11/27/16,Melenchon,2
+11/28/16,Le Pen,2
+11/28/16,Fillon,44
+11/28/16,Sarkozy,1
+11/28/16,Juppe,10
+11/28/16,Macron,2
+11/28/16,Hollande,6
+11/28/16,Valls,5
+11/28/16,Montebourg,0
+11/28/16,Hamon,0
+11/28/16,Melenchon,1
+11/29/16,Le Pen,2
+11/29/16,Fillon,28
+11/29/16,Sarkozy,1
+11/29/16,Juppe,1
+11/29/16,Macron,3
+11/29/16,Hollande,7
+11/29/16,Valls,10
+11/29/16,Montebourg,3
+11/29/16,Hamon,0
+11/29/16,Melenchon,2
+11/30/16,Le Pen,4
+11/30/16,Fillon,20
+11/30/16,Sarkozy,1
+11/30/16,Juppe,0
+11/30/16,Macron,2
+11/30/16,Hollande,9
+11/30/16,Valls,3
+11/30/16,Montebourg,1
+11/30/16,Hamon,0
+11/30/16,Melenchon,5
+12/01/16,Le Pen,1
+12/01/16,Fillon,11
+12/01/16,Sarkozy,0
+12/01/16,Juppe,1
+12/01/16,Macron,3
+12/01/16,Hollande,21
+12/01/16,Valls,2
+12/01/16,Montebourg,6
+12/01/16,Hamon,0
+12/01/16,Melenchon,2
+12/02/16,Le Pen,2
+12/02/16,Fillon,11
+12/02/16,Sarkozy,2
+12/02/16,Juppe,3
+12/02/16,Macron,4
+12/02/16,Hollande,58
+12/02/16,Valls,11
+12/02/16,Montebourg,2
+12/02/16,Hamon,0
+12/02/16,Melenchon,1
+12/03/16,Le Pen,1
+12/03/16,Fillon,0
+12/03/16,Sarkozy,1
+12/03/16,Juppe,2
+12/03/16,Macron,1
+12/03/16,Hollande,8
+12/03/16,Valls,2
+12/03/16,Montebourg,0
+12/03/16,Hamon,0
+12/03/16,Melenchon,1
+12/04/16,Le Pen,0
+12/04/16,Fillon,0
+12/04/16,Sarkozy,0
+12/04/16,Juppe,0
+12/04/16,Macron,4
+12/04/16,Hollande,0
+12/04/16,Valls,4
+12/04/16,Montebourg,0
+12/04/16,Hamon,0
+12/04/16,Melenchon,0
+12/05/16,Le Pen,1
+12/05/16,Fillon,1
+12/05/16,Sarkozy,0
+12/05/16,Juppe,0
+12/05/16,Macron,0
+12/05/16,Hollande,10
+12/05/16,Valls,24
+12/05/16,Montebourg,2
+12/05/16,Hamon,1
+12/05/16,Melenchon,1
+12/06/16,Le Pen,3
+12/06/16,Fillon,3
+12/06/16,Sarkozy,0
+12/06/16,Juppe,0
+12/06/16,Macron,4
+12/06/16,Hollande,5
+12/06/16,Valls,17
+12/06/16,Montebourg,1
+12/06/16,Hamon,1
+12/06/16,Melenchon,0
+12/07/16,Le Pen,4
+12/07/16,Fillon,13
+12/07/16,Sarkozy,0
+12/07/16,Juppe,0
+12/07/16,Macron,7
+12/07/16,Hollande,3
+12/07/16,Valls,13
+12/07/16,Montebourg,0
+12/07/16,Hamon,0
+12/07/16,Melenchon,1
+12/08/16,Le Pen,5
+12/08/16,Fillon,7
+12/08/16,Sarkozy,0
+12/08/16,Juppe,1
+12/08/16,Macron,7
+12/08/16,Hollande,1
+12/08/16,Valls,6
+12/08/16,Montebourg,1
+12/08/16,Hamon,2
+12/08/16,Melenchon,0
+12/09/16,Le Pen,6
+12/09/16,Fillon,4
+12/09/16,Sarkozy,0
+12/09/16,Juppe,0
+12/09/16,Macron,5
+12/09/16,Hollande,2
+12/09/16,Valls,1
+12/09/16,Montebourg,1
+12/09/16,Hamon,3
+12/09/16,Melenchon,1
+12/10/16,Le Pen,0
+12/10/16,Fillon,0
+12/10/16,Sarkozy,0
+12/10/16,Juppe,0
+12/10/16,Macron,7
+12/10/16,Hollande,0
+12/10/16,Valls,0
+12/10/16,Montebourg,0
+12/10/16,Hamon,0
+12/10/16,Melenchon,0
+12/11/16,Le Pen,3
+12/11/16,Fillon,1
+12/11/16,Sarkozy,1
+12/11/16,Juppe,0
+12/11/16,Macron,7
+12/11/16,Hollande,0
+12/11/16,Valls,2
+12/11/16,Montebourg,0
+12/11/16,Hamon,0
+12/11/16,Melenchon,0
+12/12/16,Le Pen,3
+12/12/16,Fillon,8
+12/12/16,Sarkozy,1
+12/12/16,Juppe,0
+12/12/16,Macron,12
+12/12/16,Hollande,2
+12/12/16,Valls,6
+12/12/16,Montebourg,0
+12/12/16,Hamon,1
+12/12/16,Melenchon,1
+12/13/16,Le Pen,2
+12/13/16,Fillon,11
+12/13/16,Sarkozy,0
+12/13/16,Juppe,0
+12/13/16,Macron,2
+12/13/16,Hollande,0
+12/13/16,Valls,3
+12/13/16,Montebourg,0
+12/13/16,Hamon,0
+12/13/16,Melenchon,1
+12/14/16,Le Pen,3
+12/14/16,Fillon,2
+12/14/16,Sarkozy,0
+12/14/16,Juppe,0
+12/14/16,Macron,3
+12/14/16,Hollande,0
+12/14/16,Valls,5
+12/14/16,Montebourg,4
+12/14/16,Hamon,0
+12/14/16,Melenchon,2
+12/15/16,Le Pen,0
+12/15/16,Fillon,9
+12/15/16,Sarkozy,1
+12/15/16,Juppe,1
+12/15/16,Macron,4
+12/15/16,Hollande,0
+12/15/16,Valls,10
+12/15/16,Montebourg,0
+12/15/16,Hamon,3
+12/15/16,Melenchon,0
+12/16/16,Le Pen,2
+12/16/16,Fillon,5
+12/16/16,Sarkozy,0
+12/16/16,Juppe,1
+12/16/16,Macron,6
+12/16/16,Hollande,1
+12/16/16,Valls,3
+12/16/16,Montebourg,0
+12/16/16,Hamon,1
+12/16/16,Melenchon,1
+12/17/16,Le Pen,0
+12/17/16,Fillon,4
+12/17/16,Sarkozy,0
+12/17/16,Juppe,0
+12/17/16,Macron,2
+12/17/16,Hollande,0
+12/17/16,Valls,0
+12/17/16,Montebourg,0
+12/17/16,Hamon,0
+12/17/16,Melenchon,0
+12/18/16,Le Pen,0
+12/18/16,Fillon,4
+12/18/16,Sarkozy,1
+12/18/16,Juppe,0
+12/18/16,Macron,2
+12/18/16,Hollande,0
+12/18/16,Valls,1
+12/18/16,Montebourg,3
+12/18/16,Hamon,1
+12/18/16,Melenchon,1
+12/19/16,Le Pen,0
+12/19/16,Fillon,6
+12/19/16,Sarkozy,0
+12/19/16,Juppe,1
+12/19/16,Macron,4
+12/19/16,Hollande,0
+12/19/16,Valls,2
+12/19/16,Montebourg,0
+12/19/16,Hamon,2
+12/19/16,Melenchon,0
+12/20/16,Le Pen,0
+12/20/16,Fillon,2
+12/20/16,Sarkozy,0
+12/20/16,Juppe,2
+12/20/16,Macron,1
+12/20/16,Hollande,0
+12/20/16,Valls,0
+12/20/16,Montebourg,0
+12/20/16,Hamon,0
+12/20/16,Melenchon,1
+12/21/16,Le Pen,1
+12/21/16,Fillon,4
+12/21/16,Sarkozy,1
+12/21/16,Juppe,1
+12/21/16,Macron,3
+12/21/16,Hollande,1
+12/21/16,Valls,2
+12/21/16,Montebourg,0
+12/21/16,Hamon,0
+12/21/16,Melenchon,0
+12/22/16,Le Pen,2
+12/22/16,Fillon,5
+12/22/16,Sarkozy,0
+12/22/16,Juppe,0
+12/22/16,Macron,1
+12/22/16,Hollande,1
+12/22/16,Valls,2
+12/22/16,Montebourg,0
+12/22/16,Hamon,1
+12/22/16,Melenchon,0
+12/23/16,Le Pen,0
+12/23/16,Fillon,3
+12/23/16,Sarkozy,0
+12/23/16,Juppe,1
+12/23/16,Macron,2
+12/23/16,Hollande,0
+12/23/16,Valls,1
+12/23/16,Montebourg,0
+12/23/16,Hamon,0
+12/23/16,Melenchon,0
+12/24/16,Le Pen,0
+12/24/16,Fillon,1
+12/24/16,Sarkozy,0
+12/24/16,Juppe,0
+12/24/16,Macron,1
+12/24/16,Hollande,0
+12/24/16,Valls,0
+12/24/16,Montebourg,0
+12/24/16,Hamon,0
+12/24/16,Melenchon,0
+12/25/16,Le Pen,0
+12/25/16,Fillon,0
+12/25/16,Sarkozy,0
+12/25/16,Juppe,0
+12/25/16,Macron,1
+12/25/16,Hollande,1
+12/25/16,Valls,0
+12/25/16,Montebourg,0
+12/25/16,Hamon,1
+12/25/16,Melenchon,1
+12/26/16,Le Pen,0
+12/26/16,Fillon,1
+12/26/16,Sarkozy,0
+12/26/16,Juppe,0
+12/26/16,Macron,0
+12/26/16,Hollande,0
+12/26/16,Valls,0
+12/26/16,Montebourg,1
+12/26/16,Hamon,2
+12/26/16,Melenchon,0
+12/27/16,Le Pen,0
+12/27/16,Fillon,3
+12/27/16,Sarkozy,0
+12/27/16,Juppe,0
+12/27/16,Macron,1
+12/27/16,Hollande,1
+12/27/16,Valls,0
+12/27/16,Montebourg,1
+12/27/16,Hamon,0
+12/27/16,Melenchon,0
+12/28/16,Le Pen,2
+12/28/16,Fillon,3
+12/28/16,Sarkozy,1
+12/28/16,Juppe,0
+12/28/16,Macron,0
+12/28/16,Hollande,0
+12/28/16,Valls,0
+12/28/16,Montebourg,0
+12/28/16,Hamon,0
+12/28/16,Melenchon,1
+12/29/16,Le Pen,0
+12/29/16,Fillon,0
+12/29/16,Sarkozy,0
+12/29/16,Juppe,0
+12/29/16,Macron,0
+12/29/16,Hollande,3
+12/29/16,Valls,2
+12/29/16,Montebourg,0
+12/29/16,Hamon,0
+12/29/16,Melenchon,0
+12/30/16,Le Pen,1
+12/30/16,Fillon,2
+12/30/16,Sarkozy,0
+12/30/16,Juppe,0
+12/30/16,Macron,3
+12/30/16,Hollande,1
+12/30/16,Valls,0
+12/30/16,Montebourg,0
+12/30/16,Hamon,0
+12/30/16,Melenchon,0
+12/31/16,Le Pen,4
+12/31/16,Fillon,1
+12/31/16,Sarkozy,0
+12/31/16,Juppe,0
+12/31/16,Macron,0
+12/31/16,Hollande,3
+12/31/16,Valls,0
+12/31/16,Montebourg,0
+12/31/16,Hamon,0
+12/31/16,Melenchon,0
+01/01/17,Le Pen,0
+01/01/17,Fillon,0
+01/01/17,Sarkozy,0
+01/01/17,Juppe,0
+01/01/17,Macron,0
+01/01/17,Hollande,0
+01/01/17,Valls,0
+01/01/17,Montebourg,0
+01/01/17,Hamon,0
+01/01/17,Melenchon,0
+01/02/17,Le Pen,2
+01/02/17,Fillon,10
+01/02/17,Sarkozy,0
+01/02/17,Juppe,0
+01/02/17,Macron,3
+01/02/17,Hollande,2
+01/02/17,Valls,0
+01/02/17,Montebourg,3
+01/02/17,Hamon,0
+01/02/17,Melenchon,0
+01/03/17,Le Pen,7
+01/03/17,Fillon,7
+01/03/17,Sarkozy,0
+01/03/17,Juppe,0
+01/03/17,Macron,1
+01/03/17,Hollande,0
+01/03/17,Valls,5
+01/03/17,Montebourg,2
+01/03/17,Hamon,1
+01/03/17,Melenchon,0
+01/04/17,Le Pen,5
+01/04/17,Fillon,10
+01/04/17,Sarkozy,1
+01/04/17,Juppe,0
+01/04/17,Macron,2
+01/04/17,Hollande,1
+01/04/17,Valls,6
+01/04/17,Montebourg,3
+01/04/17,Hamon,4
+01/04/17,Melenchon,2
+01/05/17,Le Pen,5
+01/05/17,Fillon,16
+01/05/17,Sarkozy,0
+01/05/17,Juppe,0
+01/05/17,Macron,5
+01/05/17,Hollande,2
+01/05/17,Valls,5
+01/05/17,Montebourg,1
+01/05/17,Hamon,1
+01/05/17,Melenchon,7
+01/06/17,Le Pen,4
+01/06/17,Fillon,11
+01/06/17,Sarkozy,0
+01/06/17,Juppe,0
+01/06/17,Macron,6
+01/06/17,Hollande,3
+01/06/17,Valls,7
+01/06/17,Montebourg,3
+01/06/17,Hamon,2
+01/06/17,Melenchon,2
+01/07/17,Le Pen,1
+01/07/17,Fillon,1
+01/07/17,Sarkozy,0
+01/07/17,Juppe,2
+01/07/17,Macron,2
+01/07/17,Hollande,3
+01/07/17,Valls,1
+01/07/17,Montebourg,0
+01/07/17,Hamon,0
+01/07/17,Melenchon,0
+01/08/17,Le Pen,3
+01/08/17,Fillon,3
+01/08/17,Sarkozy,0
+01/08/17,Juppe,0
+01/08/17,Macron,3
+01/08/17,Hollande,1
+01/08/17,Valls,5
+01/08/17,Montebourg,1
+01/08/17,Hamon,1
+01/08/17,Melenchon,1
+01/09/17,Le Pen,1
+01/09/17,Fillon,7
+01/09/17,Sarkozy,0
+01/09/17,Juppe,0
+01/09/17,Macron,3
+01/09/17,Hollande,1
+01/09/17,Valls,5
+01/09/17,Montebourg,3
+01/09/17,Hamon,3
+01/09/17,Melenchon,6
+01/10/17,Le Pen,6
+01/10/17,Fillon,18
+01/10/17,Sarkozy,1
+01/10/17,Juppe,0
+01/10/17,Macron,6
+01/10/17,Hollande,2
+01/10/17,Valls,3
+01/10/17,Montebourg,4
+01/10/17,Hamon,5
+01/10/17,Melenchon,3
+01/11/17,Le Pen,1
+01/11/17,Fillon,22
+01/11/17,Sarkozy,0
+01/11/17,Juppe,0
+01/11/17,Macron,8
+01/11/17,Hollande,0
+01/11/17,Valls,3
+01/11/17,Montebourg,0
+01/11/17,Hamon,0
+01/11/17,Melenchon,3
+01/12/17,Le Pen,4
+01/12/17,Fillon,14
+01/12/17,Sarkozy,0
+01/12/17,Juppe,2
+01/12/17,Macron,8
+01/12/17,Hollande,6
+01/12/17,Valls,6
+01/12/17,Montebourg,3
+01/12/17,Hamon,4
+01/12/17,Melenchon,9
+01/13/17,Le Pen,1
+01/13/17,Fillon,6
+01/13/17,Sarkozy,1
+01/13/17,Juppe,1
+01/13/17,Macron,4
+01/13/17,Hollande,1
+01/13/17,Valls,3
+01/13/17,Montebourg,2
+01/13/17,Hamon,4
+01/13/17,Melenchon,1
+01/14/17,Le Pen,0
+01/14/17,Fillon,7
+01/14/17,Sarkozy,2
+01/14/17,Juppe,0
+01/14/17,Macron,8
+01/14/17,Hollande,1
+01/14/17,Valls,2
+01/14/17,Montebourg,1
+01/14/17,Hamon,0
+01/14/17,Melenchon,0
+01/15/17,Le Pen,0
+01/15/17,Fillon,0
+01/15/17,Sarkozy,0
+01/15/17,Juppe,1
+01/15/17,Macron,8
+01/15/17,Hollande,6
+01/15/17,Valls,4
+01/15/17,Montebourg,2
+01/15/17,Hamon,1
+01/15/17,Melenchon,1
+01/16/17,Le Pen,4
+01/16/17,Fillon,8
+01/16/17,Sarkozy,1
+01/16/17,Juppe,0
+01/16/17,Macron,18
+01/16/17,Hollande,3
+01/16/17,Valls,4
+01/16/17,Montebourg,5
+01/16/17,Hamon,2
+01/16/17,Melenchon,2
+01/17/17,Le Pen,1
+01/17/17,Fillon,14
+01/17/17,Sarkozy,2
+01/17/17,Juppe,0
+01/17/17,Macron,14
+01/17/17,Hollande,1
+01/17/17,Valls,3
+01/17/17,Montebourg,4
+01/17/17,Hamon,6
+01/17/17,Melenchon,2
+01/18/17,Le Pen,2
+01/18/17,Fillon,6
+01/18/17,Sarkozy,1
+01/18/17,Juppe,0
+01/18/17,Macron,3
+01/18/17,Hollande,1
+01/18/17,Valls,10
+01/18/17,Montebourg,2
+01/18/17,Hamon,4
+01/18/17,Melenchon,2
+01/19/17,Le Pen,4
+01/19/17,Fillon,8
+01/19/17,Sarkozy,0
+01/19/17,Juppe,0
+01/19/17,Macron,8
+01/19/17,Hollande,1
+01/19/17,Valls,8
+01/19/17,Montebourg,5
+01/19/17,Hamon,7
+01/19/17,Melenchon,2
+01/20/17,Le Pen,5
+01/20/17,Fillon,3
+01/20/17,Sarkozy,1
+01/20/17,Juppe,1
+01/20/17,Macron,4
+01/20/17,Hollande,2
+01/20/17,Valls,5
+01/20/17,Montebourg,2
+01/20/17,Hamon,5
+01/20/17,Melenchon,1
+01/21/17,Le Pen,0
+01/21/17,Fillon,0
+01/21/17,Sarkozy,0
+01/21/17,Juppe,0
+01/21/17,Macron,1
+01/21/17,Hollande,0
+01/21/17,Valls,0
+01/21/17,Montebourg,0
+01/21/17,Hamon,1
+01/21/17,Melenchon,1
+01/22/17,Le Pen,0
+01/22/17,Fillon,4
+01/22/17,Sarkozy,2
+01/22/17,Juppe,0
+01/22/17,Macron,3
+01/22/17,Hollande,4
+01/22/17,Valls,12
+01/22/17,Montebourg,7
+01/22/17,Hamon,18
+01/22/17,Melenchon,3
+01/23/17,Le Pen,0
+01/23/17,Fillon,6
+01/23/17,Sarkozy,0
+01/23/17,Juppe,0
+01/23/17,Macron,5
+01/23/17,Hollande,0
+01/23/17,Valls,19
+01/23/17,Montebourg,2
+01/23/17,Hamon,23
+01/23/17,Melenchon,3
+01/24/17,Le Pen,0
+01/24/17,Fillon,8
+01/24/17,Sarkozy,0
+01/24/17,Juppe,0
+01/24/17,Macron,9
+01/24/17,Hollande,1
+01/24/17,Valls,21
+01/24/17,Montebourg,1
+01/24/17,Hamon,19
+01/24/17,Melenchon,2
+01/25/17,Le Pen,1
+01/25/17,Fillon,24
+01/25/17,Sarkozy,1
+01/25/17,Juppe,2
+01/25/17,Macron,7
+01/25/17,Hollande,3
+01/25/17,Valls,16
+01/25/17,Montebourg,1
+01/25/17,Hamon,16
+01/25/17,Melenchon,2
+01/26/17,Le Pen,1
+01/26/17,Fillon,23
+01/26/17,Sarkozy,0
+01/26/17,Juppe,0
+01/26/17,Macron,7
+01/26/17,Hollande,0
+01/26/17,Valls,17
+01/26/17,Montebourg,0
+01/26/17,Hamon,20
+01/26/17,Melenchon,3
+01/27/17,Le Pen,0
+01/27/17,Fillon,28
+01/27/17,Sarkozy,1
+01/27/17,Juppe,2
+01/27/17,Macron,1
+01/27/17,Hollande,1
+01/27/17,Valls,6
+01/27/17,Montebourg,1
+01/27/17,Hamon,10
+01/27/17,Melenchon,1
+01/28/17,Le Pen,1
+01/28/17,Fillon,8
+01/28/17,Sarkozy,3
+01/28/17,Juppe,0
+01/28/17,Macron,1
+01/28/17,Hollande,0
+01/28/17,Valls,5
+01/28/17,Montebourg,0
+01/28/17,Hamon,5
+01/28/17,Melenchon,1
+01/29/17,Le Pen,1
+01/29/17,Fillon,21
+01/29/17,Sarkozy,0
+01/29/17,Juppe,0
+01/29/17,Macron,2
+01/29/17,Hollande,0
+01/29/17,Valls,9
+01/29/17,Montebourg,0
+01/29/17,Hamon,24
+01/29/17,Melenchon,7
+01/30/17,Le Pen,2
+01/30/17,Fillon,17
+01/30/17,Sarkozy,1
+01/30/17,Juppe,0
+01/30/17,Macron,10
+01/30/17,Hollande,6
+01/30/17,Valls,12
+01/30/17,Montebourg,0
+01/30/17,Hamon,40
+01/30/17,Melenchon,5
+01/31/17,Le Pen,3
+01/31/17,Fillon,22
+01/31/17,Sarkozy,0
+01/31/17,Juppe,0
+01/31/17,Macron,15
+01/31/17,Hollande,2
+01/31/17,Valls,3
+01/31/17,Montebourg,0
+01/31/17,Hamon,16
+01/31/17,Melenchon,1
+02/01/17,Le Pen,3
+02/01/17,Fillon,51
+02/01/17,Sarkozy,0
+02/01/17,Juppe,3
+02/01/17,Macron,16
+02/01/17,Hollande,0
+02/01/17,Valls,1
+02/01/17,Montebourg,0
+02/01/17,Hamon,6
+02/01/17,Melenchon,2
+02/02/17,Le Pen,4
+02/02/17,Fillon,30
+02/02/17,Sarkozy,1
+02/02/17,Juppe,2
+02/02/17,Macron,5
+02/02/17,Hollande,7
+02/02/17,Valls,2
+02/02/17,Montebourg,0
+02/02/17,Hamon,13
+02/02/17,Melenchon,2
+02/03/17,Le Pen,10
+02/03/17,Fillon,40
+02/03/17,Sarkozy,0
+02/03/17,Juppe,1
+02/03/17,Macron,8
+02/03/17,Hollande,2
+02/03/17,Valls,0
+02/03/17,Montebourg,0
+02/03/17,Hamon,9
+02/03/17,Melenchon,2
+02/04/17,Le Pen,8
+02/04/17,Fillon,9
+02/04/17,Sarkozy,0
+02/04/17,Juppe,0
+02/04/17,Macron,7
+02/04/17,Hollande,2
+02/04/17,Valls,1
+02/04/17,Montebourg,0
+02/04/17,Hamon,5
+02/04/17,Melenchon,2
+02/05/17,Le Pen,13
+02/05/17,Fillon,11
+02/05/17,Sarkozy,0
+02/05/17,Juppe,1
+02/05/17,Macron,10
+02/05/17,Hollande,2
+02/05/17,Valls,0
+02/05/17,Montebourg,0
+02/05/17,Hamon,11
+02/05/17,Melenchon,14
+02/06/17,Le Pen,8
+02/06/17,Fillon,60
+02/06/17,Sarkozy,1
+02/06/17,Juppe,6
+02/06/17,Macron,5
+02/06/17,Hollande,0
+02/06/17,Valls,0
+02/06/17,Montebourg,0
+02/06/17,Hamon,5
+02/06/17,Melenchon,4
+02/07/17,Le Pen,3
+02/07/17,Fillon,44
+02/07/17,Sarkozy,0
+02/07/17,Juppe,1
+02/07/17,Macron,6
+02/07/17,Hollande,0
+02/07/17,Valls,1
+02/07/17,Montebourg,1
+02/07/17,Hamon,6
+02/07/17,Melenchon,2
+02/08/17,Le Pen,2
+02/08/17,Fillon,21
+02/08/17,Sarkozy,0
+02/08/17,Juppe,1
+02/08/17,Macron,1
+02/08/17,Hollande,0
+02/08/17,Valls,0
+02/08/17,Montebourg,0
+02/08/17,Hamon,6
+02/08/17,Melenchon,1
+02/09/17,Le Pen,8
+02/09/17,Fillon,12
+02/09/17,Sarkozy,1
+02/09/17,Juppe,0
+02/09/17,Macron,4
+02/09/17,Hollande,1
+02/09/17,Valls,0
+02/09/17,Montebourg,0
+02/09/17,Hamon,2
+02/09/17,Melenchon,1
+02/10/17,Le Pen,8
+02/10/17,Fillon,15
+02/10/17,Sarkozy,1
+02/10/17,Juppe,1
+02/10/17,Macron,8
+02/10/17,Hollande,1
+02/10/17,Valls,0
+02/10/17,Montebourg,0
+02/10/17,Hamon,3
+02/10/17,Melenchon,2
+02/11/17,Le Pen,0
+02/11/17,Fillon,5
+02/11/17,Sarkozy,1
+02/11/17,Juppe,1
+02/11/17,Macron,1
+02/11/17,Hollande,1
+02/11/17,Valls,0
+02/11/17,Montebourg,0
+02/11/17,Hamon,1
+02/11/17,Melenchon,3
+02/12/17,Le Pen,1
+02/12/17,Fillon,3
+02/12/17,Sarkozy,0
+02/12/17,Juppe,1
+02/12/17,Macron,2
+02/12/17,Hollande,0
+02/12/17,Valls,0
+02/12/17,Montebourg,0
+02/12/17,Hamon,0
+02/12/17,Melenchon,0
+02/13/17,Le Pen,0
+02/13/17,Fillon,3
+02/13/17,Sarkozy,0
+02/13/17,Juppe,0
+02/13/17,Macron,0
+02/13/17,Hollande,1
+02/13/17,Valls,0
+02/13/17,Montebourg,0
+02/13/17,Hamon,2
+02/13/17,Melenchon,0
+02/14/17,Le Pen,1
+02/14/17,Fillon,3
+02/14/17,Sarkozy,0
+02/14/17,Juppe,0
+02/14/17,Macron,0
+02/14/17,Hollande,0
+02/14/17,Valls,0
+02/14/17,Montebourg,0
+02/14/17,Hamon,2
+02/14/17,Melenchon,3
+02/15/17,Le Pen,0
+02/15/17,Fillon,4
+02/15/17,Sarkozy,1
+02/15/17,Juppe,0
+02/15/17,Macron,0
+02/15/17,Hollande,0
+02/15/17,Valls,0
+02/15/17,Montebourg,0
+02/15/17,Hamon,4
+02/15/17,Melenchon,3

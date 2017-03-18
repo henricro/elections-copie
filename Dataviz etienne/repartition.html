@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.mainBars rect{
+  shape-rendering: auto;
+  fill-opacity: 0;
+  stroke-width: 0.5px;
+  stroke: rgb(0, 0, 0);
+  stroke-opacity: 0;
+}
+.subBars{
+  shape-rendering:crispEdges;
+}
+.edges{
+  stroke:none;
+  fill-opacity:1;
+}
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
+<script>
+
+var data=[["Bayrou","L'Express",24,24],
+["(EELV) Duflot","L'Express",6,6],
+["(LR) Fillon","L'Express",292,292],
+["(PS) Hamon","L'Express",97,97],
+["Hollande","L'Express",155,155],
+["(EELV) Jadot","L'Express",11,11],
+["(LR) Juppé","L'Express",111,111],
+["Macron","L'Express",153,153],
+["(PS) Montebourg","L'Express",52,52],
+["Mélenchon","L'Express",57,57],
+["(FN) Le Pen","L'Express",88,88],
+["(NPA) Poutou","L'Express",2,2],
+["(LR) Sarkozy","L'Express",128,128],
+["(PS) Valls","L'Express",152,152],
+["Bayrou","L'Humanité",0,0],
+["(EELV) Duflot","L'Humanité",2,2],
+["(LR) Fillon","L'Humanité",28,28],
+["(PS) Hamon","L'Humanité",15,15],
+["Hollande","L'Humanité",33,33],
+["(EELV) Jadot","L'Humanité",2,2],
+["(LR) Juppé","L'Humanité",6,6],
+["Macron","L'Humanité",14,14],
+["(PS) Montebourg","L'Humanité",4,4],
+["Mélenchon","L'Humanité",41,41],
+["(FN) Le Pen","L'Humanité",7,7],
+["(NPA) Poutou","L'Humanité",1,1],
+["(LR) Sarkozy","L'Humanité",14,14],
+["(PS) Valls","L'Humanité",24,24],
+["Bayrou","L'Opinion",22,22],
+["(EELV) Duflot","L'Opinion",8,8],
+["(LR) Fillon","L'Opinion",145,145],
+["(PS) Hamon","L'Opinion",21,21],
+["Hollande","L'Opinion",171,171],
+["(EELV) Jadot","L'Opinion",8,8],
+["(LR) Juppé","L'Opinion",72,72],
+["Macron","L'Opinion",91,91],
+["(PS) Montebourg","L'Opinion",14,14],
+["Mélenchon","L'Opinion",32,32],
+["(FN) Le Pen","L'Opinion",60,60],
+["(NPA) Poutou","L'Opinion",0,0],
+["(LR) Sarkozy","L'Opinion",105,105],
+["(PS) Valls","L'Opinion",57,57],
+["Bayrou","Figaro",27,27],
+["(EELV) Duflot","Figaro",1,1],
+["(LR) Fillon","Figaro",297,297],
+["(PS) Hamon","Figaro",31,31],
+["Hollande","Figaro",31,31],
+["(EELV) Jadot","Figaro",6,6],
+["(LR) Juppé","Figaro",119,119],
+["Macron","Figaro",73,73],
+["(PS) Montebourg","Figaro",3,3],
+["Mélenchon","Figaro",19,19],
+["(FN) Le Pen","Figaro",45,45],
+["(NPA) Poutou","Figaro",0,0],
+["(LR) Sarkozy","Figaro",79,79],
+["(PS) Valls","Figaro",22,22],
+["Bayrou","Le Monde",31,31],
+["(EELV) Duflot","Le Monde",14,14],
+["(LR) Fillon","Le Monde",405,405],
+["(PS) Hamon","Le Monde",157,157],
+["Hollande","Le Monde",198,198],
+["(EELV) Jadot","Le Monde",31,31],
+["(LR) Juppé","Le Monde",178,178],
+["Macron","Le Monde",184,184],
+["(PS) Montebourg","Le Monde",80,80],
+["Mélenchon","Le Monde",70,70],
+["(FN) Le Pen","Le Monde",69,69],
+["(NPA) Poutou","Le Monde",1,1],
+["(LR) Sarkozy","Le Monde",203,203],
+["(PS) Valls","Le Monde",161,161],
+["Bayrou","Les Echos",8,8],
+["(EELV) Duflot","Les Echos",2,2],
+["(LR) Fillon","Les Echos",23,23],
+["(PS) Hamon","Les Echos",4,4],
+["Hollande","Les Echos",19,19],
+["(EELV) Jadot","Les Echos",9,9],
+["(LR) Juppé","Les Echos",2,2],
+["Macron","Les Echos",62,62],
+["(PS) Montebourg","Les Echos",5,5],
+["Mélenchon","Les Echos",5,5],
+["(FN) Le Pen","Les Echos",10,10],
+["(NPA) Poutou","Les Echos",1,1],
+["(LR) Sarkozy","Les Echos",4,4],
+["(PS) Valls","Les Echos",11,11],
+["Bayrou","Marianne",6,6],
+["(EELV) Duflot","Marianne",0,0],
+["(LR) Fillon","Marianne",66,66],
+["(PS) Hamon","Marianne",30,30],
+["Hollande","Marianne",5,5],
+["(EELV) Jadot","Marianne",0,0],
+["(LR) Juppé","Marianne",3,3],
+["Macron","Marianne",31,31],
+["(PS) Montebourg","Marianne",8,8],
+["Mélenchon","Marianne",10,10],
+["(FN) Le Pen","Marianne",8,8],
+["(NPA) Poutou","Marianne",0,0],
+["(LR) Sarkozy","Marianne",3,3],
+["(PS) Valls","Marianne",24,24]]
+
+
+;
+
+var color ={"(LR) Fillon":"#00b2ff", "Mélenchon":"#db00f5",  "Bayrou":"#FF9900", "(EELV) Jadot":"#109618", "(FN) Le Pen":"#002799", "(PS) Montebourg":"#ff0000", "(LR) Sarkozy":"#00b2ff", "(EELV) Duflot" : "#109618", "Macron": "#701d00", "(LR) Juppé":"#00b2ff", "(NPA) Poutou" : "#ffe300", "(PS) Hamon" : "#ff0000", "(PS) Valls":"#ff0000" };
+var svg = d3.select("body").append("svg").attr("width", 1200).attr("height", 800);
+var g = svg.append("g").attr("transform","translate(200,50)");
+
+var bp=viz.bP()
+    .data(data)
+    .min(12)
+    .pad(0.6)
+    .height(600)
+    .width(600)
+    .barSize(35)
+    .fill(d=>color[d.primary]);
+      
+g.call(bp);
+
+g.selectAll(".mainBars")
+  .on("mouseover",mouseover)
+  .on("mouseout",mouseout)
+
+g.selectAll(".mainBars").append("text").attr("class","label")
+  .attr("x",d=>(d.part=="primary"? -40: 40))
+  .attr("y",d=>+6)
+  .text(d=>d.key)
+  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+  
+g.selectAll(".mainBars").append("text").attr("class","perc")
+  .attr("x",d=>(d.part=="primary"? -180: 120))
+  .attr("y",d=>+6)
+  .text(function(d){ return d3.format("0.0%")(d.percent)})
+  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+
+function mouseover(d){
+  bp.mouseover(d);
+  g.selectAll(".mainBars")
+  .select(".perc")
+  .text(function(d){ return d3.format("0.0%")(d.percent)})
+}
+function mouseout(d){
+  bp.mouseout(d);
+  g.selectAll(".mainBars")
+    .select(".perc")
+  .text(function(d){ return d3.format("0.0%")(d.percent)})
+}
+d3.select(self.frameElement).style("height", "800px");
+</script>
+</body>
+</html>
