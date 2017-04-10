@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+  <style>
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+    svg { width:100%; height: 100% }
+    * {font-family: 'Roboto'}
+    #chart { border-left: 3px solid #1d1d1d; margin: 60px; width: 600px;}
+    .bar {height: 50px; margin-top: 20px; position: relative;}
+    .more {background: #e8be3a;}
+    .less {background: #86ceb6;}
+    .average {background: #ed3232;}
+    .percentage {color: #1d1d1d; font-size: 40px;}
+    p {
+      width: 210px;
+      left: 100%;
+      padding-left: 10px;
+      position: absolute;
+      top: -20px;
+    }
+    .name {
+      opacity: 0; 
+      float: right;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 6px;
+      width: 130px;
+    }
+    .bears {
+      font-weight: 100;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="chart"></div>
+  <script>
+    var data = [
+      {name: "<span class='bears'>du contenu partagé</span> n'est pas lu", value: 59, class: 'bar average'}    ];
+    
+    var width = 600,
+      	height = 350;
+    
+    var max = d3.max(data, function(d) { return +d.value;} );
+    
+    var x = d3.scale.linear()
+      .domain([0, max])
+      .range([0, width]);
+
+    var bars = d3.select('#chart')
+      .selectAll('div')
+      .data(data)
+      .enter().append('div')
+    	.attr('class', function(d) { return d.class })
+    	.style('width', 0)
+    	.html(function(d) { return '<p><span class="percentage">' + d.value + '%</span>' + '<span class="name">' + d.name + '</span></p>'; });
+    
+    bars.transition()
+    .each("end", function() {
+        d3.select(".name")
+          .transition()
+            .style("opacity", 1);
+      })
+      .delay(function(d, i) { return 1000 * i})
+      .duration(1500)
+    	.style("width", function(d) { return x(d.value) + "px"; });
+  </script>
+</body>
