@@ -21,7 +21,7 @@
     display: table;
     table-layout: fixed;
     width:100%;
-    height:800px;
+    height:3	00px;
 }
 #bloc > iframe{
     display: table-cell;
@@ -30,8 +30,8 @@
 }
 #bloc > div{
     display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+    text-align: justify;
+    vertical-align: top;
 }
 #repart{
 height:100%;
@@ -40,8 +40,8 @@ width:60%;
 #key{
 width:25%;
 position:relative;
-padding-right: 2cm;
-margin-left:-10cm;
+padding-top: 2cm;
+padding-left: 2cm;
 }
 </style>
 
@@ -74,7 +74,7 @@ margin-left:-10cm;
    
    
     <iframe src="barres.html" height="580px" width="80%"  frameBorder="0"> </iframe>
-	 <h6 style="text-align: center;margin-top:-180px;padding-right:100px;padding-left:100px;" >*Estimation à partir des articles publiés 
+	 <h6 style="text-align: center;margin-top:-180px;padding-right:100px;padding-left:100px;color:white;" >*Estimation à partir des articles publiés 
     par Le Monde, L'Express, Marianne, Le Figaro, L'Humanité, L'Opinion et Les Echos.
 Un article est comptabilisé pour un candidat s'il le mentionne dès son titre.    </h6>
 	</header>
@@ -84,16 +84,16 @@ Un article est comptabilisé pour un candidat s'il le mentionne dès son titre. 
 <section class="spacer green" style="text-align:center;padding-right:100px;padding-left:100px;">
     
     			<div>
-				<h2>60% des contenus partagés sur les réseaux sociaux <br> ... <br> le sont sans avoir été lus.  </h2>
-				<h4 style="text-align: justify;padding-right:100px;padding-left:100px;">Pourtant de nombreux articles sont partagés, likés, retweetés... 
+				<h2 style="color:white;">60% des contenus partagés sur les réseaux sociaux <br> ... <br> le sont sans avoir été lus.  </h2>
+				<h4 style="color:white;text-align: justify;padding-right:100px;padding-left:100px;">Pourtant de nombreux articles sont partagés, likés, retweetés... 
       Ces partages supposent donc que l'information se construit par de courtes références à une situation présupposée connue de tous. Plus généralement,
 il est clair que les titres ont une place à part dans le corpus de textes médiatiques : conçu pour marquer, c'est ce que nous retenons en passant 
 dans la rue... </h4>
-      <h3 class="header justify white-text" align="center"> Ce qui suit présente un aperçu de l'information contenue dans l'ensemble des titres des articles, issus de 7 journaux :</h3>
+      <h3 class="header justify white-text" align="center" style="color:white;"> Ce qui suit présente un aperçu de l'information contenue dans l'ensemble des titres des articles, issus de 7 journaux :</h3>
       <h6><br></h6>
-<h3 class="header justify white-text" align="center"> Le Monde, L'Express, Marianne, Le Figaro, L'Humanité, L'Opinion et Les Echos, </h3>
+<h3 class="header justify white-text" align="center" style="color:white;"> Le Monde, L'Express, Marianne, Le Figaro, L'Humanité, L'Opinion et Les Echos, </h3>
       <h6><br></h6>
-<h3 class="header justify white-text" align="center"> concernant l'élection présidentielle française de 2017 jusqu'au 16 février.  </h3> <br>
+<h3 class="header justify white-text" align="center" style="color:white;"> concernant l'élection présidentielle française de 2017 jusqu'au 16 février.  </h3> <br>
   
 			</div>
 
@@ -102,21 +102,20 @@ dans la rue... </h4>
 </div>
 </section>
 <!-- end spacer section -->
-<!-- section: team -->
-<section id="about" class="section">
+<section id="timeline" class="section">
 <div class="container">
 	<h2 style="text-align: center">Voyez comment les <strong>évènements</strong> marquants de cette précampagne ont permis à <strong>certains</strong> de faire le <strong>buzz</strong></h2>
 	 <IFRAME src="timeline.html" height="500" width="100%" frameBorder="0" align="center"></IFRAME>
 
 </div>
-<!-- /.container -->
+
 </section>
 <!-- end section: team -->
 
 <section class="spacer green">
     
     			<div>
-<h4 class="light white-text" align="justify" style="padding-right:100px;padding-left:100px;">  Bien que le corpus ne soit pas tiré de la presse à sensation, le nombre d'articles semble hyperréactif aux évènements qui offre donc une couverture médiatique 
+<h4 class="light white-text" align="justify" style="padding-right:100px;padding-left:100px;color:white;">  Bien que le corpus ne soit pas tiré de la presse à sensation, le nombre d'articles semble hyperréactif aux évènements qui offre donc une couverture médiatique 
 aux candidats qui "font" l'actualité.<br> Mais ces différences sont-elles le fait d'une préférence de certains acteurs majeurs, ou symptômatiques d'un traitement généralisé de l'actualité par 
 l'ensemble de la presse ?</h4>
     <br>
@@ -128,74 +127,24 @@ l'ensemble de la presse ?</h4>
 </section>
 
 <!-- section: services -->
-<section id="about" class="section">
-    <h4>Qui parle de qui ?</h4>
-<div class="container" id="bloc">
+<section id="repartition" class="section" style="height:450px;">
+    <h4 style="margin-top:-30px;">Qui parle de qui ?</h4>
+	<div class="container" id="bloc">
 	
-<div id="repart">
-	 <IFRAME src="repartition.html" height="650" width="100%" frameBorder="0" align="center" ></IFRAME>
-</div>
-
-<div id="key">
-<h4 class="header red-text">Clé de lecture :</h4>
-<br>
-<br>
-<h5 class="header red-text">A gauche, la part de chaque candidat dans le corpus.</h5>
-<br>
-<h5 class="header red-text">A droite, la part de chaque journal dans le corpus.</h5>
-<br>
-<h5 class="header red-text">En passant votre curseur sur un candidat, la part de chaque journal dans sa couverture médiatique.</h5>
-<br>
-<h5 class="header red-text">En passant votre curseur sur un journal, la part de chaque candidat dans ses titres sur les présidentielles Françaises de 2017.</h5>
-</div>
-
-</div>
-
-
-	<!-- Four columns -->
-	<div class="row">
-		<div class="span3 animated-fast flyIn">
-			<div class="service-box">
-				<img src="img/icons/laptop.png" alt="" />
-				<h2>Web design</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			</div>
+		<div id="repart">
+		<IFRAME src="repartition.html" height="650" width="100%" frameBorder="0" align="center" ></IFRAME>
 		</div>
-		<div class="span3 animated flyIn">
-			<div class="service-box">
-				<img src="img/icons/lab.png" alt="" />
-				<h2>Web development</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			</div>
+
+		<div id="key">
+		<h3> Clé de lecture</h3>
+		En passant votre curseur sur les noms des candidats et des journaux, découvrez de quel journal chaque candidat tire sa couverture médiatique ou encore les candidats de prédilection de chaque journal.
 		</div>
-		<div class="span3 animated-fast flyIn">
-			<div class="service-box">
-				<img src="img/icons/camera.png" alt="" />
-				<h2>Photography</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			</div>
-		</div>
-		<div class="span3 animated-slow flyIn">
-			<div class="service-box">
-				<img src="img/icons/basket.png" alt="" />
-				<h2>Ecommerce</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-				</p>
-			</div>
-		</div>
+
 	</div>
-</div>
 </section>
-<!-- end section: services -->
+
 <!-- section: works -->
-<section id="works" class="section">
+<section id="jeux" class="section">
 <div class="container clearfix">
       <div style="text-align: center"><h2>Elements de <strong>langage</strong></h2>
 </div>
@@ -209,6 +158,8 @@ l'ensemble de la presse ?</h4>
     <IFRAME src="Mots_Macron.html" width="500" height="350" frameBorder="0"></IFRAME>
     
     </div>
+</section>
+<section id="barres" class="section">
 	<!-- portfolio filter -->
 	<div class="row">
 		<div id="filters" class="span12">
@@ -353,51 +304,6 @@ l'ensemble de la presse ?</h4>
 </section>
 
 <!-- end spacer section -->
-<!-- section: contact -->
-<section id="contact" class="section green">
-<div class="container">
-	<h4>Get in Touch</h4>
-	<p>
-		 Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
-	</p>
-	<div class="blankdivider30">
-	</div>
-	<div class="row">
-		<div class="span12">
-			<div class="cform" id="contact-form">
-				<div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-				<form action="" method="post" role="form" class="contactForm">
-					<div class="row">
-						<div class="span6">
-							<div class="field your-name form-group">
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
-							</div>
-							<div class="field your-email form-group">
-								<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
-							</div>
-							<div class="field subject form-group">
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                <div class="validation"></div>
-							</div>
-						</div>
-						<div class="span6">
-							<div class="field message form-group">
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                <div class="validation"></div>
-							</div>
-							<input type="submit" value="Send message" class="btn btn-theme pull-left">
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<!-- ./span12 -->
-	</div>
-</div>
-</section>
 <footer>
 <div class="container">
 	<div class="row">
@@ -408,18 +314,7 @@ l'ensemble de la presse ?</h4>
 				<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
 				<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
 			</ul>
-			<p class="copyright">
-				&copy; Maxim Theme. All rights reserved.
-                <div class="credits">
-                    <!-- 
-                        All the links in the footer should remain intact. 
-                        You can delete the links only if you purchased the pro version.
-                        Licensing information: https://bootstrapmade.com/license/
-                        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
-                    -->
-                    <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a> by BootstrapMade.com
-                </div>
-			</p>
+	
 		</div>
 	</div>
 </div>
