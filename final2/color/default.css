@@ -6,29 +6,29 @@ background:#e06d5e;
 }
 
 .navbar .brand a:hover {
-	color:#1BAC91;
+	color:DodgerBlue;
 }
 
 
 
 ul#menu-main > li > a:hover {
-	color: #1BAC91;
+	color: DodgerBlue;
 }
 
 
 ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active    {
-	color: #1BAC91;
+	color: DodgerBlue;
 }
 #header-wrapper h1 span {
-	color:#1BAC91;
+	color:DodgerBlue;
 }
 
 #header-wrapper input[type=submit] {
-	background: #1BAC91 !important;
+	background: DodgerBlue !important;
 }
 
 #theme-form input[type=submit] {
-	background: #1BAC91 !important;
+	background: DodgerBlue !important;
 }
 
 .btn.btn-theme {
@@ -37,30 +37,30 @@ ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.
 
 /* blog */
 .home-post .post-meta {
-	background: #1BAC91;
+	background: DodgerBlue;
 }
 
 /* com */
 .tabbable ul.nav-tabs li.active a,.tabbable ul.nav-tabs li a:hover {
-	color: #1BAC91;
+	color: DodgerBlue;
 }
 .accordion .accordion-heading a.active {
-	color: #1BAC91;
+	color: DodgerBlue;
 }
 
 #tweet ul li a {
-	color: #1BAC91;
+	color: DodgerBlue;
 }
 
 
 /* works */
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-	background: #1BAC91;
-	border-color: #1BAC91;
+	background: DodgerBlue;
+	border-color: DodgerBlue;
 }
 
 .portfolio .portfolio-overlay {
-	background: #1BAC91;
+	background: DodgerBlue;
 }
 
 /* icon */

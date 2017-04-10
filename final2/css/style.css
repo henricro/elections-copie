@@ -476,7 +476,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#1BAC91;
 }
 
 .spacer.green,.section.green h4 {
@@ -1456,8 +1456,8 @@ i.icon-white {
 .btn-success {
   color: #ffffff;
   text-shadow: none;
-  background-color: #1bac91;
-  *background-color: #1bac91;
+  background-color: DodgerBlue;
+  *background-color: DodgerBlue;
   background-image: none;
   border-color: none;
   filter:none;
