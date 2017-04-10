@@ -18,16 +18,15 @@
   <script>
 
 
+
     var data = [
-  {name_1 : 'Fillon', count : 97, color : "#800026" },
- { name_1 : 'Sondage', count : 37, color : "#bd0026" },
- { name_1 : 'Campagne', count : 27, color : "#e31a1c"},
- { name_1 : 'Second tour', count : 23, color : "#fc4e2a"},
- { name_1 : 'peut, veut', count : 18, color : "#fd8d3c"},
- { name_1 : 'Trump', count : 17, color :"#feb24c" },
- { name_1 : ' \"?\" Macron', count : 14, color :  "#fed976"},
- { name_1 : 'Gagner',          count : 12,  color : "#ffeda0"},
-    ];
+  {name_1 : ' Gauche ',    count :120, color : "#800026"},
+  {name_1 : 'Jadot',                count :45, color : "#bd0026"},
+  {name_1 : 'Revenu universel',                 count :37, color : "#e31a1c"},
+  {name_1 : ' \"? "\ Mélenchon',          count :33, color : "#fc4e2a"},
+  {name_1 : 'Fillon, PS',               count :29, color : "#fd8d3c" },
+  {name_1 : 'Veut',  count :19, color : "#feb24c"},
+  ];
 
 
     var totalCount = '?';   //calcuting total manually
@@ -75,8 +74,8 @@
         .style("opacity", 1)
         .select("#value")
         .text(d.data.name_1);
-      })
-    .on("mouseout", function (d) {
+})
+        .on("mouseout", function (d) {
     d3.select("#tooltip")
         .style("left", d3.event.pageX + "px")
         .style("top", d3.event.pageY + "px")
@@ -128,7 +127,7 @@ svg.append("circle")
       <svg id="mySvg" width="200" height="200">
       <defs id="mdef">
         <pattern id="image" x="0" y="0" height="1" width="1">
-          <image x="-180" y="-100" width="400" height="400" xlink:href="images/Le_Pen.png"></image>
+          <image x="-100" y="-70" width="400" height="400" xlink:href="images/Hamon.jpg"></image>
         </pattern>
       </defs>
 
