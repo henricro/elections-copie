@@ -27,6 +27,18 @@
     <svg></svg>
 </div>
 
+<style>
+.line {
+stroke: #993300;
+fill: none;
+stroke-width: 0.75px;
+}
+
+.line.line5 {
+ stroke:red;
+}
+</style>
+
 <script>
 
     // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs,
@@ -50,7 +62,7 @@
 	chart.x2Axis.tickFormat(function(d) {
             return d3.time.format('%d %b %y')(new Date(d * 1000 + 1683000000000))
         });
-        chart.yAxis.tickFormat(d3.format('s'));
+        chart.yAxis.tickFormat(d3.format('.2n'));
 
         d3.select('#chart1 svg')
             .datum(cumulativeTestData())
