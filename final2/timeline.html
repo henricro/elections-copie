@@ -41,6 +41,69 @@ stroke-width: 0.75px;
 
 <script>
 
+    function drawVerticalLines(opts) {
+
+      // CAREFUL HERE !!! the css path ".nvd3 .nv-focus .nv-linesWrap" depends on the type of chart you are using, lineChart would use only ".nvd3 .nv-linesWrap" ... !
+      if (!(d3.select('#' + opts.id + ' .nvd3 .nv-focus .nv-linesWrap').select('.vertical-lines')[0][0])) {
+        // Adds new g element with .vertical-lines class; use a css debugger to verify
+        d3.select('#' + opts.id + ' .nvd3 .nv-focus .nv-linesWrap').append('g')
+          .attr('class', 'vertical-lines')
+      }
+
+      vertLines = d3.select('#' + opts.id + ' .nvd3 .nv-focus .nv-linesWrap').select('.vertical-lines').selectAll('.vertical-line')
+        .data(
+          // [USER INPUT] : Specify events here
+          [{
+            'date': new Date('2016-10-30'),
+            'label': 'something to highlight 2016'
+          }, {
+            'date': new Date('2017-01-30'),
+            'label': 'something to highlight 2017'
+          }])
+
+      var vertG = vertLines.enter()
+        .append('g')
+        .attr('class', 'vertical-line')
+
+      vertG.append('svg:line')
+      vertG.append('text')
+
+      vertLines.exit().remove()
+
+      // CAREFUL 2 : chart.xAxis.scale() scale depends how you are defining your x Axis in nvd3 chart ... if your are using timestamps, (d.date / 60 / 60 / 24 / 1000) becomes (d.date)
+
+      vertLines.selectAll('line')
+        .attr('x1', function(d) {
+          return chart.xAxis.scale()(d.date)
+        })
+        .attr('x2', function(d) {
+          return chart.xAxis.scale()(d.date)
+        })
+        .attr('y1', chart.yAxis.scale().range()[0])
+        .attr('y2', chart.yAxis.scale().range()[1])
+        .style('stroke', 'red')
+
+      vertLines.selectAll('text')
+        .text(function(d) {
+          return d.label
+        })
+        .attr('dy', '1em')
+        //x placement ; change dy above for minor adjustments but mainly
+        //    change the d.date/60/60/24/1000 
+        //y placement ; change 2 to where you want vertical placement
+        //rotate -90 but feel free to change to what you would like
+        .attr('transform', function(d) {
+          return 'translate(' +
+            chart.xAxis.scale()(d.date / 60 / 60 / 24 / 1000) +
+            ',' +
+            chart.yAxis.scale()(2) +
+            ') rotate(-90)'
+        })
+        //also you can style however you would like
+        //here is an example changing the font size
+        .style('font-size', '80%')
+
+    }
     // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs,
     // and may do more in the future... it's NOT required
     nv.addGraph(function() {
@@ -77,8 +140,12 @@ stroke-width: 0.75px;
         });
 chart.brushExtent([2950642800,2964470400])
 chart.update()
-
+        
+        var sharedChart = chart;
         return chart;
+    }, //now the callback
+        function() {
+        drawVerticalLines(opts, sharedChart);
     });
 
 
