@@ -94,7 +94,7 @@ stroke-width: 0.75px;
         //rotate -90 but feel free to change to what you would like
         .attr('transform', function(d) {
           return 'translate(' +
-            chart.x2Axis.scale()(d.date) +
+            chart.xAxis.scale()(d.date) +
             ',' +
             chart.yAxis.scale()(2) +
             ') rotate(-90)'
