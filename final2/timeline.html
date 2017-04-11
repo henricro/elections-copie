@@ -104,6 +104,9 @@ stroke-width: 0.75px;
         .style('font-size', '80%')
 
     }
+    
+    var sharedChart = null;
+    
     // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs,
     // and may do more in the future... it's NOT required
     nv.addGraph(function() {
@@ -141,7 +144,7 @@ stroke-width: 0.75px;
 chart.brushExtent([2950642800,2964470400])
 chart.update()
         
-        var sharedChart = chart;
+        sharedChart = chart;
         return chart;
     }, //now the callback
         function() {
