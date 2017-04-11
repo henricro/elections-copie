@@ -7,7 +7,7 @@
 }
 
 .bar:hover {
-  fill: #d33b45 ;
+  fill: #ff9900 ;
 }
 
 .axis {
@@ -26,16 +26,46 @@
   display: none;
 }
 
+.d3-tip {
+  line-height: 1;
+  font-family: sans-serif;
+  padding: 10px;
+  background: #ff9900;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #ff9900;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
 </style>
 <body>
 <script src="js/d3-v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 var w = window.innerWidth;
 var h = window.innerHeight;
 // Mike Bostock "margin conventions"
-var margin = {top: 10, right: 20, bottom: 40, left: 90},
+var margin = {top: 50, right: 20, bottom: 40, left: 90},
     width = 98*w/100 - margin.left - margin.right,
-    height = 70*h/100 - margin.top - margin.bottom;
+    height = 70*h/100 - margin.top - margin.bottom ;
 
 // D3 scales = just math
 // x is a function that transforms from "domain" (data) into "range" (usual pixels)
@@ -56,6 +86,13 @@ var yAxis = d3.svg.axis()
     .orient("left")
     .ticks(10, "%");
 
+var tip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        return "<strong>Part d'articles:</strong> <span style='color:white'>" + d.frequency*100 + "%" + "</span>";
+      })
+
 // create an SVG element (appended to body)
 // set size
 // add a "g" element (think "group")
@@ -74,6 +111,7 @@ svg.append("g")
 
 svg.append("g")
     .attr("class", "y axis")
+	.attr("transform","translate(-20,0)")
   .append("text")
     .attr("transform", "translate(-100,0)") // just for the title (ticks are automatic)
     .attr("transform", "rotate(-90)") // rotate the text!
@@ -121,6 +159,8 @@ function draw(data) {
   // same for yAxis but with more transform and a title
   svg.select(".y.axis").transition().duration(300).call(yAxis)
 
+  svg.call(tip);
+
   // THIS IS THE ACTUAL WORK!
   var bars = svg.selectAll(".bar").data(data, function(d) { return d.letter; })// (data) is an array/iterable thing, second argument is an ID generator function
 
@@ -136,7 +176,9 @@ function draw(data) {
   bars.enter().append("rect")
     .attr("class", "bar")
     .attr("y", y(0))
-    .attr("height", height - y(0));
+    .attr("height", height - y(0))
+    .on('mouseover', tip.show)
+    .on('mouseout', tip.hide);
 
   // the "UPDATE" set:
   bars.transition().duration(300).attr("x", function(d) { return x(d.letter); }) // (d) is one item from the data array, x is the scale object from above
