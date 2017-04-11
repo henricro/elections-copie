@@ -74,10 +74,10 @@ stroke-width: 0.75px;
 
       vertLines.selectAll('line')
         .attr('x1', function(d) {
-          return chart.xAxis.scale()(d.date.getTime())
+          return chart.xAxis.scale()(d.date.getTime()/1000)
         })
         .attr('x2', function(d) {
-          return chart.xAxis.scale()(d.date.getTime())
+          return chart.xAxis.scale()(d.date.getTime()/1000)
         })
         .attr('y1', chart.yAxis.scale().range()[0])
         .attr('y2', chart.yAxis.scale().range()[1])
@@ -94,7 +94,7 @@ stroke-width: 0.75px;
         //rotate -90 but feel free to change to what you would like
         .attr('transform', function(d) {
           return 'translate(' +
-            chart.xAxis.scale()(d.date.getTime()) +
+            chart.xAxis.scale()(d.date.getTime()/1000) +
             ',' +
             chart.yAxis.scale()(2) +
             ') rotate(-90)'
