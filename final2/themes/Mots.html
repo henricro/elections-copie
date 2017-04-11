@@ -67,7 +67,7 @@
             .attr("x", function(d, i) { return i * gridSize; })
             .attr("y", 0)
             .style("text-anchor", "end")
-            .attr("transform", function(d,i) { return ( "translate(" + (gridSize/2 + 10*i) + "," + -(6 + 24*i) + " ) rotate(45) " );
+            .attr("transform", function(d,i) { return ( "translate(" + (gridSize/2 + 10*i) + "," + -(6 + 22*i) + " ) rotate(45) " );
               })
             .attr("class", "timeLabel mono axis axis-worktime");
 
@@ -139,7 +139,7 @@
 
           legend.append("text")
             .attr("class", "mono")
-            .text(function(d) {  if (tsvFile == "mots_n.tsv"){return  "≥ " + Math.round(d*100) + "%"; }
+            .text(function(d) {  if (tsvFile == "mots_n.tsv"){return  "≥ " + Math.round(d) + "%"; }
                                 else {return "≥ " + Math.round(d) + " art."  } })
             .attr("x", function(d, i) { return legendElementWidth * i; })
             .attr("y", height + gridSize);
