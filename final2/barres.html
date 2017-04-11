@@ -54,8 +54,7 @@ var xAxis = d3.svg.axis()
 var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left")
-    .ticks(10, "%")
-    .tr;
+    .ticks(10, "%");
 
 // create an SVG element (appended to body)
 // set size
@@ -75,6 +74,7 @@ svg.append("g")
 
 svg.append("g")
     .attr("class", "y axis")
+    .attr("transform", "translate(-20,0)") // leave space for the title
   .append("text")
     .attr("transform", "translate(-100,0)") // just for the title (ticks are automatic)
     .attr("transform", "rotate(-90)") // rotate the text!
