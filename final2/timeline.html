@@ -41,16 +41,16 @@ stroke-width: 0.75px;
 
 <script>
 
-    function drawVerticalLines(opts) {
+    function drawVerticalLines(chart) {
 
       // CAREFUL HERE !!! the css path ".nvd3 .nv-focus .nv-linesWrap" depends on the type of chart you are using, lineChart would use only ".nvd3 .nv-linesWrap" ... !
-      if (!(d3.select('#' + opts.id + ' .nvd3 .nv-focus .nv-linesWrap').select('.vertical-lines')[0][0])) {
+      if (!(d3.select('#chart1 .nvd3 .nv-focus .nv-linesWrap').select('.vertical-lines')[0][0])) {
         // Adds new g element with .vertical-lines class; use a css debugger to verify
-        d3.select('#' + opts.id + ' .nvd3 .nv-focus .nv-linesWrap').append('g')
+        d3.select('#chart1 .nvd3 .nv-focus .nv-linesWrap').append('g')
           .attr('class', 'vertical-lines')
       }
 
-      vertLines = d3.select('#' + opts.id + ' .nvd3 .nv-focus .nv-linesWrap').select('.vertical-lines').selectAll('.vertical-line')
+      vertLines = d3.select('#chart1 .nvd3 .nv-focus .nv-linesWrap').select('.vertical-lines').selectAll('.vertical-line')
         .data(
           // [USER INPUT] : Specify events here
           [{
@@ -94,7 +94,7 @@ stroke-width: 0.75px;
         //rotate -90 but feel free to change to what you would like
         .attr('transform', function(d) {
           return 'translate(' +
-            chart.xAxis.scale()(d.date / 60 / 60 / 24 / 1000) +
+            chart.xAxis.scale()(d.date) +
             ',' +
             chart.yAxis.scale()(2) +
             ') rotate(-90)'
@@ -145,7 +145,7 @@ chart.update()
         return chart;
     }, //now the callback
         function() {
-        drawVerticalLines(opts, sharedChart);
+        drawVerticalLines(sharedChart);
     });
 
 
