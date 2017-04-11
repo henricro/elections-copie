@@ -21,7 +21,7 @@
 
 .nvd3 .nv-axis line {
     fill: none;
-    stroke: #e5e5e5;
+    stroke: #f2f2f2;
     shape-rendering: crispEdges;
 }
 

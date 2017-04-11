@@ -484,7 +484,7 @@ section.spacer {
 }
 
 .spacer.yellow,.section.yellow  {
-	background:#ffe873;
+	background:#f2f2f2;
 }
 .spacer.orange,.section.orange {
 	background:#f36f36;
@@ -499,6 +499,13 @@ section.spacer.bg2 {
 
 section.spacer.bg3 {
 	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	width:100%;
+	height:auto;
+	margin:0;
+}
+
+section.spacer.bg4 {
+	background: url(../img/bg/bg-4.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -766,7 +773,7 @@ section#blog {
 }
 
 .home-post {
-	background:#fff;
+	background:#f2f2f2;
 
 }
 
@@ -1403,8 +1410,8 @@ i.icon-white {
 .btn-warning {
   color: #ffffff;
   text-shadow: none;
-  background-color: #ffe873;
-  *background-color: #ffe873;
+  background-color: #f2f2f2;
+  *background-color: #f2f2f2;
   background-image: none;
   border-color: none;
   filter:none;
