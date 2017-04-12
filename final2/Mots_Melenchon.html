@@ -27,13 +27,13 @@
   {name_1 : 'Jadot',               count :12, color : "#fd8d3c" },
   {name_1 : 'Fait, \"?\" Le Pen',  count :10, color : "#feb24c"},
   {name_1 : 'Fait, \"?\" Macron',  count : 9,  color : "#fed976"},
-  {name_1 : 'Contre, plus',        count : 9,  color : "#ffeda0"},  
+  {name_1 : 'Contre, plus',        count : 9,  color : "#ffeda0"},
   {name_1 : 'Annonce, Hologramme', count : 4,  color : "#ffffcc"},
   ];
 
 
     var totalCount = '?';   //calcuting total manually
-    
+
     var width = 300,
     height = 300,
     radius = 150;
@@ -62,7 +62,7 @@
 
     var g = svg.selectAll(".arc")
       .data(pie(data))
-      .enter().append("g");  
+      .enter().append("g");
 
 
     g.append("path")
@@ -87,7 +87,7 @@
         .text(d.data.name_1);});
 
     g.append("text")
-      .attr("transform", function(d) { 
+      .attr("transform", function(d) {
         var midAngle = d.endAngle < Math.PI ? d.startAngle/2 + d.endAngle/2 : d.startAngle/2  + d.endAngle/2 + Math.PI ;
         return "translate(" + labelArc.centroid(d)[0] + "," + labelArc.centroid(d)[1] + ") rotate(-90) rotate(" + (midAngle * 180/Math.PI) + ")"; })
       .attr("dy", ".50em")
@@ -114,13 +114,10 @@ svg.append("circle")
          .attr("r", 100)
          .style("stroke", "black")     // displays small black dot
          .style("stroke-width", 0.25)
-         .on("mouseover", function(){ // when I use .style("fill", "red") here, it works 
+         .style("fill", "url(#image2)")
+         .on("click", function(){ // when I use .style("fill", "red") here, it works
                d3.select(this)
                    .style("fill", "url(#image)");
-         })
-          .on("mouseout", function(){ 
-               d3.select(this)
-                   .style("fill", "transparent");
          });
 
 
@@ -131,6 +128,9 @@ svg.append("circle")
       <defs id="mdef">
         <pattern id="image" x="0" y="0" height="1" width="1">
           <image x="-160" y="-150" width="500" height="500" xlink:href="images/Melenchon.jpg"></image>
+        </pattern>
+        <pattern id="image2" x="0" y="0" height="1" width="1">
+          <image x="-150" y="-130" width="500" height="500" xlink:href="images/mystere2.jpg"></image>
         </pattern>
       </defs>
 
