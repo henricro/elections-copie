@@ -46,12 +46,16 @@
                     "value" : 0.3
                 } ,
                 {
-                    "label" : "Melenchon" ,
+                    "label" : "Mélenchon" ,
                     "value" : 1.67
                 } ,
                 {
                     "label" : "Hamon" ,
                     "value" : 1.11
+                } ,
+                {
+                    "label" : "Dupont-Aignan" ,
+                    "value" : 3.90
                 } ,
                 {
                     "label" : "Asselineau" ,
@@ -94,7 +98,7 @@
             .stacked(true);
 
 
-        chart.yAxis.tickFormat(d3.format('.0%'));
+        chart.yAxis.tickFormat(d3.format('.1%'));
 
         chart.xAxis.axisLabel('Part des articles associés à ce thème').axisLabelDistance(50);
 
