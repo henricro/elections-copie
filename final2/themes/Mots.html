@@ -5,7 +5,7 @@
     <style>
       rect.bordered {
         stroke: #E6E6E6;
-        stroke-width:2px;   
+        stroke-width:2px;
       }
 
       text.mono {
@@ -30,7 +30,7 @@
     <div id="dataset-picker">
     </div>
     <script type="text/javascript">
-      var margin = { top: 100, right: 0, bottom: 100, left: 100 },
+      var margin = { top: 120, right: 0, bottom: 100, left: 100 },
           width = 960 - margin.left - margin.right,
           height = 550 - margin.top - margin.bottom,
           gridSize = Math.floor(height / 10.2 - 3),
@@ -83,7 +83,7 @@
         },
         function(error, data) {
           var colorScale = d3.scale.quantile()
-              .domain([0, 
+              .domain([0,
                       function() { if (tsvFile == "mots_n.tsv"){return 1}
                                   else {return buckets-1}; }, d3.max(data, function (d) { return d.value; })/3])
               .range(colors);
@@ -122,7 +122,7 @@
 
 
           cards.select("title").text(function(d) { return d.value; });
-          
+
           cards.exit().remove();
 
           var legend = svg.selectAll(".legend")
@@ -146,7 +146,7 @@
 
           legend.exit().remove();
 
-        });  
+        });
       };
 
       heatmapChart(datasets[0]);
