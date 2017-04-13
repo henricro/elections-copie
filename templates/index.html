@@ -269,7 +269,7 @@ tr, td, th{
   <h2 align="center">Comment a <strong>évolué</strong> la couverture des candidats au cours de la <strong>campagne</strong>? </h2>
   <p align="center" style="color: #000"><strong>Double-clickez</strong> sur un candidat pour l'isoler et <strong>faitez glisser</strong> le slider pour remonter dans le temps</p>
 
-     <IFRAME src={{ url_for('templates', filename="timeline.html") }} height="500" width="100%" frameBorder="0" align="center"></IFRAME>
+     <IFRAME src={{ url_for('timeline') }} height="500" width="100%" frameBorder="0" align="center"></IFRAME>
 
      <div class="row">
       <div class="span6">
@@ -321,7 +321,7 @@ tr, td, th{
 	<div class="container" id="bloc">
 
 		<div id="repart">
-		<IFRAME src={{ url_for('templates', filename="repartition.html") }} height="650" width="100%" frameBorder="0" align="center" ></IFRAME>
+		<IFRAME src={{ url_for('repartition') }} height="650" width="100%" frameBorder="0" align="center" ></IFRAME>
 		</div>
 
 		<div id="key" height="800">
@@ -378,15 +378,15 @@ tr, td, th{
 
 	  <div style="text-align: center"> <br> <br>
 
-  <IFRAME src={{ url_for('templates', filename="Mots_Fillon.html") }} width="500" height="350" frameBorder="0"></IFRAME>
+  <IFRAME src={{ url_for('fillon') }} width="500" height="350" frameBorder="0"></IFRAME>
 
-    <IFRAME src={{ url_for('templates', filename="Mots_Le_Pen.html") }} width="500" height="350" frameBorder="0"></IFRAME>
+    <IFRAME src={{ url_for('lepen') }} width="500" height="350" frameBorder="0"></IFRAME>
 
-    <IFRAME src={{ url_for('templates', filename="Mots_Melenchon.html") }} width="500" height="350" frameBorder="0"></IFRAME>
+    <IFRAME src={{ url_for('melenchon') }} width="500" height="350" frameBorder="0"></IFRAME>
 
-    <IFRAME src={{ url_for('templates', filename="Mots_Macron.html") }} width="500" height="350" frameBorder="0"></IFRAME>
+    <IFRAME src={{ url_for('macron') }} width="500" height="350" frameBorder="0"></IFRAME>
 
-    <IFRAME src={{ url_for('templates', filename="Mots_Hamon.html") }} width="500" height="350" frameBorder="0"></IFRAME>
+    <IFRAME src={{ url_for('hamon') }} width="500" height="350" frameBorder="0"></IFRAME>
 
 </div>
 </section>
@@ -439,7 +439,7 @@ tr, td, th{
 							<div class="tab-content" style="margin-left:15%; height: 650px; overflow-y: hidden;">
 								<div class="tab-pane active " id="tous">
 									<p style="margin-left:10%;">
-										<IFRAME src={{ url_for('templates', filename="themes/Mots.html") }} height="590" width="170%" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('mots') }} height="590" width="170%" frameBorder="0" align="center"></IFRAME>
 									</p>
 
 								</div>
@@ -448,7 +448,7 @@ tr, td, th{
 									<p style="text-align:left;"> Pour le thème <strong> Europe </strong> <br>
 									Les mots retenus sont :<i> Europe, euro, européen, européenne, UE, BCE, Brexit, Allemagne, Royaume-Uni, Belgique, parlement européen. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_europe.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('europe') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -456,7 +456,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Ecologie & Energie </strong> <br> <br>
 									Les mots retenus sont :<i> écologie, vert, verts, nucléaire, énergie, Notre-Dame-des-Landes, renouvelable, renouvelables, écologiquement, schiste, bio, environnement, diesel, électrique, énergétique, déchets, gaspillage, pesticide, climat, climatique, nature. </i>
 
-										<IFRAME src="themes/index_ecologie.html" height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('ecologie') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -464,7 +464,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Immigration </strong> <br> <br>
 										Les mots retenus sont :<i> immigration, migrants, migrant, émigration, réfugié, réfugiés, frontières. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_immigration.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('immigration') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -472,7 +472,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Santé </strong> <br> <br>
 									Les mots retenus sont :<i> santé, hôpital, hôpitaux, médecins, médical, médicale, obésité, alimentation, cannabis, sécu, sécurité sociale, assurance maladie, assurance-maladie. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_sante.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('sante') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -480,7 +480,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Sécurité </strong> <br> <br>
 									Les mots retenus sont :<i> sécurité, insécurité, police, prison, gendarmerie, défense, contrôle, armée, délinquance, meurtres, communautarisme, islamisme, terrorisme, attaque terroriste, attaques terroristes, antiterroristes, antiterroriste, antiterrorisme. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_securite.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('t_securite') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -488,7 +488,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Finance </strong> <br> <br>
 									Les mots retenus sont :<i> finance, fiscalité, mondialisation, impôts, monnaie, revenu, dettes, taxes, économie, pouvoir dachat, libéral, libérale, libérals, libérales, dépenses, crise, banques, pauvreté, capitalisme, financier. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_finance.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('finance') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -496,7 +496,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Travail </strong> <br> <br>
 									Les mots retenus sont :<i> travail, profession, professionel, salariés, fonctionnaires, agriculture, agriculteurs, campagne, pac, ouvriers, chômage, emploi, emplois, 35 heures, cadres. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_travail.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('travail') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -504,7 +504,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Culture </strong> <br> <br>
 									Les mots retenus sont :<i> culture, médias, intermittent, artistes, artiste, exposition. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_culture.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('culture') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -512,7 +512,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Numérique </strong> <br> <br>
 									Les mots retenus sont :<i> numérique, réseaux sociaux, twitter, e-réputation, tweets, google, facebook, médiatique, internet, youtube, technologique, technologie, web. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_numerique.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('numerique') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -520,7 +520,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Politique étrangère </strong> <br> <br>
 									Les mots retenus sont :<i> politique étrangère, Syrie, Lybie, Russie, Etats-Unis, Gaza, Crimée, Moyen-Orient, Poutine, Trump, Assad, Grande Bretagne, Londres, Berlin, Allemagne, Merkel, Kouchner, Beyrouth, Israël. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_etrangere.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('etranger') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -544,7 +544,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Vie publique </strong> <br> <br>
 									Les mots retenus sont :<i> affaires, emploi fictif, emplois fictifs, affaire, examen, penelopegate, penelope, vie publique. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_viepublique.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('viepublique') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -552,7 +552,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Sondage </strong> <br> <br>
 									Les mots retenus sont :<i> sondage, sondages. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_sondage.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('sondage') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 							</div>
