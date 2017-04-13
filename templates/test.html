@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Elections 2017 & Media</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href={{url_for('static', filename="css/bootstrap-responsive.css")}} rel="stylesheet">
+<link href={{url_for('static', filename="css/style.css")}} rel="stylesheet">
+<link href={{url_for('static', filename="color/default.css")}} rel="stylesheet">
+<link rel="shortcut icon" href={{url_for('static', filename="img/favicon.ico")}}>
+<!-- =======================================================
+    Theme Name: Maxim
+    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+======================================================= -->
+<style>
+    #bloc{
+    display: table;
+    table-layout: fixed;
+    width:100%;
+    height:300px;
+}
+#bloc > iframe{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#bloc > div{
+    display: table-cell;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#repart{
+height:100%;
+width:60%;
+}
+#key{
+width:25%;
+position:relative;
+padding-top: 0cm;
+padding-left: 2cm;
+}
+#repart2{
+height:100%;
+width:20%;
+}
+#key2{
+width:55%;
+position:relative;
+padding-top: 0cm;
+padding-left: 0cm;
+}
+#boutons, #boutons li{
+margin:0;
+padding:0;
+}
+#boutons {
+    text-align: center;
+    width:75%;
+    margin-left:12%;
+}
+#boutons li{
+display:inline;
+margin:0px 10px;
+}
+tr, td, th{
+  border-style: solid;
+  border-color:#f2f2f2;
+  font-size: 14px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  color:black;
+}
+</style>
+
+
+</head>
+<body>
+  <!-- navbar -->
+  <div class="navbar-wrapper">
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="navbar-inner">
+  			<div class="container">
+  				<!-- Responsive navbar -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+  				</a>
+  				<h1 class="brand"><a href={{ url_for('index') }}>Presidentielles 2017</a></h1>
+  				<!-- navigation -->
+  				<nav class="pull-right nav-collapse collapse">
+  				<ul id="menu-main" class="nav">
+  					<li><a title="team" href="#header-wrapper">Intro</a></li>
+  					<li><a title="services" href="#timeline">Evolution</a></li>
+  					<li><a title="works" href="#repartition">Repartition</a></li>
+  					<li><a title="blog" href="#jeux">Jeu</a></li>
+  					<li><a title="contact" href="#themes">Thèmes</a></li>
+  					<li><a title="about" href="#blog">A propos</a></li>
+  					<li><a title="contact" href="#contact">Contact</a></li>
+  				</ul>
+  				</nav>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+<!-- Header area -->
+<div id="header-wrapper" class="header-slider" style="height:450px;min-height:450px;">
+	<header class="clearfix" style="margin-top:-50px;">
+
+
+       			<div >
+       			  <h2 style="text-align: center;">Quels sont les <strong>candidats</strong> les plus représentés dans les <strong>médias</strong> ? </h2>
+       			</div>
+
+
+    <iframe src={{ url_for('barres') }} height="580px" width="80%"  frameBorder="0"> </iframe>
+
+    </header>
+</div>
+    
+<!-- end spacer section -->
+<footer>
+<div class="container" id="contact">
+	<div class="row">
+<div class="span6">
+    <table style="border:0;color:white;padding-top:2px;padding-bottom:2px;margin-top:-35px;text-align:left;">
+
+    <tr style="border:0;color:white;padding-top:2px;padding-bottom:2px;">
+      <th style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><i class="icon-circled icon-bgdark icon-linkedin icon-2x"></i></th>
+      <th style="border:0;color:white;padding-top:2px;padding-bottom:2px;font-size:25px;">E-mail</th>
+      </tr>
+
+    <tr style="border:0;color:white;padding-top:2px;padding-bottom:2px;">
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="https://www.linkedin.com/in/etienne-madinier-5a91b9aa/" target="_blank">Étienne <strong>Madinier</strong></a></td>
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><A HREF="mailto:etienne.madinier@ensae.fr">etienne.madinier@ensae.fr</A></td>
+      </tr>
+    <tr style="border:0;color:white;padding-top:2px;padding-bottom:2px;">
+       <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="https://www.linkedin.com/in/gastonbizel/" target="_blank">Gaston <strong>Bizel-Bizellot</strong></a></td>
+       <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="mailto:gaston.bizel.bizellot@ensae.fr">gaston.bizel.bizellot@ensae.fr</a></td>
+     </tr>
+    <tr style="border:0;color:white;padding-top:2px;padding-bottom:2px;">
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="https://www.linkedin.com/in/l%C3%A9a-briand-732291106/" target="_blank">Léa <strong>Briand</strong></a></td>
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="mailto:lea.briand@ensae.fr">lea.briand@ensae.fr</a</td>
+      </tr>
+    <tr style="border:0;color:white;padding-top:2px;padding-bottom:2px;">
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="https://www.linkedin.com/in/guillaume-demonet-a385518b/" target="_blank">Guillaume <strong>Demonet</strong></a></td>
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="mailto:guillaume.demonet@ensae.fr"> guillaume.demonet@ensae.fr</a></td>
+    </tr>
+    <tr style="border:0;color:white;padding-top:2px;padding-bottom:2px;">
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="https://www.linkedin.com/in/charles-cony-433781111/" target="_blank">
+        Charles <strong>Cony</strong></a></td>
+      <td style="border:0;color:white;padding-top:2px;padding-bottom:2px;"><a href="mailto:charles.cony@ensae.fr">charles.cony@ensae.fr</a></td>
+      </tr>
+    </table>
+  </div>
+
+<div class="span6" style="text-align:justify;">
+Cette page a été réalisée dans le cadre d'un projet de datavisualisation s'inscrivant dans notre formation
+à l'<a href="http://www.ensae.fr/ensae/fr/" target="_blank">ENSAE ParisTech</a> et encadré
+par <a href="https://toucantoco.com/fr/" target="_blank">Toucan Toco</a>.
+ Les données ont été récoltées sur les sites officiels des journaux à l'aide du langage <a href="https://www.python.org/" target="_blank">Python</a> et mises en forme à l'aide de la librairie <a href="https://d3js.org/" target="_blank">D3.js</a>.
+  Le code de la page est disponible sur <a href="https://github.com/NaasCraft/dataviz-elections-2017" target="_blank"> GitHub</a>.
+  Si la base de données vous intéresse, nous pouvons vous y donner accès sur demande à l'une des adresses de contact figurant dans
+  le menu ci-contre.
+
+
+	</div>
+</div>
+<table style="margin-left:35%;margin-top:45px;border:0;">
+  <tr style="border:0;">
+    <td style="border:0;">
+      <img src={{ url_for('static', filename="img/icons/ensae.png") }} alt="ENSAE" width="80px" height="80px">
+    </td>
+      <td style="border:0;">
+        <img src={{ url_for('static', filename="img/icons/toucan.png") }} alt="Toucan Toco" width="80px" height="80px">
+      </td>
+    </tr>
+  </table>
+
+<!-- ./container -->
+</footer>
+<a href="#header-wrapper" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+<script src={{ url_for('static', filename="js/jquery.js") }}></script>
+<script src={{ url_for('static', filename="js/jquery.scrollTo.js") }}></script>
+<script src={{ url_for('static', filename="js/jquery.nav.js") }}></script>
+<script src={{ url_for('static', filename="js/jquery.localscroll-1.2.7-min.js") }}></script>
+<script src={{ url_for('static', filename="js/bootstrap.js") }}></script>
+<script src={{ url_for('static', filename="js/jquery.prettyPhoto.js") }}></script>
+<script src={{ url_for('static', filename="js/isotope.js") }}></script>
+<script src={{ url_for('static', filename="js/jquery.flexslider.js") }}></script>
+<script src={{ url_for('static', filename="js/inview.js") }}></script>
+<script src={{ url_for('static', filename="js/animate.js") }}></script>
+<script src={{ url_for('static', filename="js/validate.js") }}></script>
+<script src={{ url_for('static', filename="js/custom.js") }}></script>
+
+<!-- Google Analytics tracker -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97318581-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
