@@ -58,7 +58,7 @@
 
 </style>
 <body>
-<script src="js/d3-v3.min.js"></script>
+<script src={{ url_for('static', filename="js/d3-v3.min.js") }}></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 var w = window.innerWidth;
@@ -123,7 +123,7 @@ svg.append("g")
 
 // d3.tsv is a wrapper around XMLHTTPRequest, returns array of arrays (?) for a TSV file
 // type function transforms strings to numbers, dates, etc.
-d3.tsv("data.tsv", type, function(error, data) {
+d3.tsv({{ url_for('static', filename="data.tsv") }}, type, function(error, data) {
   replay(data);
 });
 

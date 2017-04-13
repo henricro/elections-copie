@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-      <link href="css/css_portrait.css" rel="stylesheet">
+      <link href={{ url_for('static', filename="css/css_portrait.css") }} rel="stylesheet">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
     body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; text-align: center; }
@@ -127,10 +127,10 @@ svg.append("circle")
       <svg id="mySvg" width="200" height="200">
       <defs id="mdef">
         <pattern id="image" x="0" y="0" height="1" width="1">
-          <image x="-60" y="-80" width="350" height="400" xlink:href="images/Macron.jpg"></image>
+          <image x="-60" y="-80" width="350" height="400" xlink:href={{ url_for('static', filename="images/Macron.jpg") }}></image>
         </pattern>
         <pattern id="image2" x="0" y="0" height="1" width="1">
-          <image x="-150" y="-130" width="500" height="500" xlink:href="images/mystere2.jpg"></image>
+          <image x="-150" y="-130" width="500" height="500" xlink:href={{ url_for('static', filename="images/mystere2.jpg") }}></image>
         </pattern>
       </defs>
 
