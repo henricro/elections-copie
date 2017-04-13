@@ -123,7 +123,7 @@ svg.append("g")
 
 // d3.tsv is a wrapper around XMLHTTPRequest, returns array of arrays (?) for a TSV file
 // type function transforms strings to numbers, dates, etc.
-d3.tsv({{ url_for('static', filename="data.tsv") }}, type, function(error, data) {
+d3.tsv('/static/data.tsv', type, function(error, data) {
   replay(data);
 });
 
