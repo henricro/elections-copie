@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('test.html')
+    return render_template('index.html')
 
 # On stocke chaque graphe comme une vue
 # pour extraire son url dans les templates
