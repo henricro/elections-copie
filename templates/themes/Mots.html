@@ -41,7 +41,7 @@
           times = ['Europe','Ecologie & Energie','Immigration',
                      'Santé','Sécurité','Finances','Travail','Culture', 'Numérique', 'Politique etrangère ', 'Société', 'Seniors', 'Vie publique', 'Sondages'
                      ];
-          datasets = ["mots_n.tsv"];
+          datasets = ["/static/mots_n.tsv"];
 
       var svg = d3.select("#chart").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -84,7 +84,7 @@
         function(error, data) {
           var colorScale = d3.scale.quantile()
               .domain([0,
-                      function() { if (tsvFile == "mots_n.tsv"){return 1}
+                      function() { if (tsvFile == "/static/mots_n.tsv"){return 1}
                                   else {return buckets-1}; }, d3.max(data, function (d) { return d.value; })/3])
               .range(colors);
 
@@ -139,7 +139,7 @@
 
           legend.append("text")
             .attr("class", "mono")
-            .text(function(d) {  if (tsvFile == "mots_n.tsv"){return  "≥ " + Math.round(d) + "%"; }
+            .text(function(d) {  if (tsvFile == "/static/mots_n.tsv"){return  "≥ " + Math.round(d) + "%"; }
                                 else {return "≥ " + Math.round(d) + " art."  } })
             .attr("x", function(d, i) { return legendElementWidth * i; })
             .attr("y", height + gridSize);
