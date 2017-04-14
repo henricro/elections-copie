@@ -14,4 +14,4 @@ Cette page a été réalisée dans le cadre d'un projet de datavisualisation s'i
 Elle est hébergée à l'adresse [presidentielles.datascientest.com](http://presidentielles.datascientest.com), offerte par [DataScientest.com](http://datascientest.com/).
 
 ***
-_NB : la version en ligne à l'adresse évoquée utilise [Flask](https://flask.pocoo.org/), dont le code est exposé dans la branche `flask` de ce dépôt GitHub._
+_NB : la version en ligne à l'adresse évoquée utilise [Flask](http://flask.pocoo.org/), dont le code est exposé dans la branche `flask` de ce dépôt GitHub._
