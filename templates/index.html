@@ -36,13 +36,13 @@
 
 #repart{
 height:100%;
-width:60%;
+width:70%;
 }
 #key{
-width:25%;
+width:20%;
 position:relative;
 padding-top: 0cm;
-padding-left: 2cm;
+padding-left: 0cm;
 }
 #repart2{
 height:100%;
@@ -480,7 +480,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Sécurité </strong> <br> <br>
 									Les mots retenus sont :<i> sécurité, insécurité, police, prison, gendarmerie, défense, contrôle, armée, délinquance, meurtres, communautarisme, islamisme, terrorisme, attaque terroriste, attaques terroristes, antiterroristes, antiterroriste, antiterrorisme. </i>
 
-										<IFRAME src={{ url_for('t_securite') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('securite') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -528,7 +528,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Société </strong> <br> <br>
 									Les mots retenus sont :<i> société, démocratie, système, anti-système, capitalisme, famille, mariage, avortement, pma, adoption, tradition, traditions, congé parental, ivg, revenu universel, égalité hommes-femmes, sexisme, macho, religion, laïcité, laïque, laïques, port du voile, islam, catholique, catholiques, juif, juifs, musulman, musulmans, chrétien, chrétiens. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_societe.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('societe') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -536,7 +536,7 @@ tr, td, th{
 									<p style="text-align: left;"> Pour le thème <strong> Seniors </strong> <br> <br>
 									Les mots retenus sont :<i> retraite, retraités, âgés, dépendance, retraites. </i>
 
-										<IFRAME src={{ url_for('templates', filename="themes/index_seniors.html") }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
+										<IFRAME src={{ url_for('seniors') }} height="590" width="1400" frameBorder="0" align="center"></IFRAME>
 									</p>
 								</div>
 
@@ -716,7 +716,7 @@ tr, td, th{
 <div class="span6" style="text-align:justify;">
 Cette page a été réalisée dans le cadre d'un projet de datavisualisation s'inscrivant dans notre formation
 à l'<a href="http://www.ensae.fr/ensae/fr/" target="_blank">ENSAE ParisTech</a> et encadré
-par <a href="https://toucantoco.com/fr/" target="_blank">Toucan Toco</a>.
+par <a href="https://toucantoco.com/fr/" target="_blank">Toucan Toco</a>. L'hébergement est fourni par <a href="http://datascientest.com/" target="_blank">DataScienTest</a>.
  Les données ont été récoltées sur les sites officiels des journaux à l'aide du langage <a href="https://www.python.org/" target="_blank">Python</a> et mises en forme à l'aide de la librairie <a href="https://d3js.org/" target="_blank">D3.js</a>.
   Le code de la page est disponible sur <a href="https://github.com/NaasCraft/dataviz-elections-2017" target="_blank"> GitHub</a>.
   Si la base de données vous intéresse, nous pouvons vous y donner accès sur demande à l'une des adresses de contact figurant dans
