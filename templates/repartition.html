@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.mainBars rect{
+  shape-rendering: auto;
+  fill-opacity: 0;
+  stroke-width: 0.5px;
+  stroke: rgb(0, 0, 0);
+  stroke-opacity: 0;
+}
+.subBars{
+  shape-rendering:crispEdges;
+}
+.edges{
+  stroke:none;
+  fill-opacity:1;
+}
+text{
+font: 12px sans-serif;
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
+<script>
+
+var data=[
+
+["(DLF) Dupont-Aignan","L'Express",16,16],["(DLF) Dupont-Aignan","L'Humanité",0,0],["(DLF) Dupont-Aignan","L'Opinion",30,30],["(DLF) Dupont-Aignan","Le Figaro",8,8],["(DLF) Dupont-Aignan","Le Monde",8,8],["(DLF) Dupont-Aignan","Les Echos",11,11],["(DLF) Dupont-Aignan","Marianne",4,4],
+["(LO) Arthaud","L'Express",3,3],["(LO) Arthaud","L'Humanité",0,0],["(LO) Arthaud","L'Opinion",3,3],["(LO) Arthaud","Le Figaro",0,0],["(LO) Arthaud","Le Monde",5,5],["(LO) Arthaud","Les Echos",5,5],["(LO) Arthaud","Marianne",1,1],
+["(UPR) Asselineau","L'Express",7,7],["(UPR) Asselineau","L'Humanité",0,0],["(UPR) Asselineau","L'Opinion",4,4],["(UPR) Asselineau","Le Figaro",0,0],["(UPR) Asselineau","Le Monde",6,6],["(UPR) Asselineau","Les Echos",4,4],["(UPR) Asselineau","Marianne",2,2],
+["(S&P) Cheminade","L'Express",4,4],["(S&P) Cheminade","L'Humanité",0,0],["(S&P) Cheminade","L'Opinion",1,1],["(S&P) Cheminade","Le Figaro",1,1],["(S&P) Cheminade","Le Monde",3,3],["(S&P) Cheminade","Les Echos",3,3],["(S&P) Cheminade","Marianne",1,1],
+["(LR) Fillon","L'Express",571,571],["(LR) Fillon","L'Humanité",57,57],["(LR) Fillon","L'Opinion",278,278],["(LR) Fillon","Le Figaro",312,312],["(LR) Fillon","Le Monde",536,536],["(LR) Fillon","Les Echos",41,41],["(LR) Fillon","Marianne",163,163],
+["(PS) Hamon","L'Express",189,189],["(PS) Hamon","L'Humanité",36,36],["(PS) Hamon","L'Opinion",60,60],["(PS) Hamon","Le Figaro",33,33],["(PS) Hamon","Le Monde",230,230],["(PS) Hamon","Les Echos",18,18],["(PS) Hamon","Marianne",67,67],
+["(R!) Lassalle","L'Express",6,6],["(R!) Lassalle","L'Humanité",0,0],["(R!) Lassalle","L'Opinion",4,4],["(R!) Lassalle","Le Figaro",0,0],["(R!) Lassalle","Le Monde",3,3],["(R!) Lassalle","Les Echos",3,3],["(R!) Lassalle","Marianne",1,1],
+["(EM!) Macron","L'Express",363,363],["(EM!) Macron","L'Humanité",44,44],["(EM!) Macron","L'Opinion",219,219],["(EM!) Macron","Le Figaro",83,83],["(EM!) Macron","Le Monde",292,292],["(EM!) Macron","Les Echos",84,84],["(EM!) Macron","Marianne",99,99],
+["(FI) Mélenchon","L'Express",105,105],["(FI) Mélenchon","L'Humanité",62,62],["(FI) Mélenchon","L'Opinion",66,66],["(FI) Mélenchon","Le Figaro",20,20],["(FI) Mélenchon","Le Monde",117,117],["(FI) Mélenchon","Les Echos",12,12],["(FI) Mélenchon","Marianne",38,38],
+["(FN) Le Pen","L'Express",191,191],["(FN) Le Pen","L'Humanité",16,16],["(FN) Le Pen","L'Opinion",130,130],["(FN) Le Pen","Le Figaro",47,47],["(FN) Le Pen","Le Monde",125,125],["(FN) Le Pen","Les Echos",17,17],["(FN) Le Pen","Marianne",30,30],
+["(NPA) Poutou","L'Express",15,15],["(NPA) Poutou","L'Humanité",2,2],["(NPA) Poutou","L'Opinion",7,7],["(NPA) Poutou","Le Figaro",0,0],["(NPA) Poutou","Le Monde",5,5],["(NPA) Poutou","Les Echos",4,4],["(NPA) Poutou","Marianne",3,3]
+]
+;
+var w =Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var h = window.innerHeight;
+var color ={"(LR) Fillon":"#00b2ff", "(S&P) Cheminade":"#db00f5",  "(EM!) Macron":"#FF9900", "(FI) Mélenchon":"#109618", "(FN) Le Pen":"#002799", "(PS) Hamon":"#ff0000", "(DLF) Dupont-Aignan":"#00b2ff",
+"(LO) Arthaud" : "#109618", "(NPA) Poutou" : "#ffe300",  "(UPR) Asselineau":"#ff0000" ,  "(R!) Lassalle":"#ff0000" };
+var svg = d3.select("body").append("svg").attr("width", 98*w/100).attr("height", 90*h/100);
+var g = svg.append("g").attr("transform","translate(290,5)");
+
+var bp=viz.bP()
+    .data(data)
+    .min(12)
+    .pad(0.6)
+    .height(60*h/100)
+    .width(85*w/100-330)
+    .barSize(35)
+    .fill(d=>color[d.primary]);
+      
+g.call(bp);
+
+g.selectAll(".mainBars")
+  .on("mouseover",mouseover)
+  .on("mouseout",mouseout)
+
+g.selectAll(".mainBars").append("text").attr("class","label")
+  .attr("x",d=>(d.part=="primary"? -40: 40))
+  .attr("y",d=>+6)
+  .text(d=>d.key)
+  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+  
+g.selectAll(".mainBars").append("text").attr("class","perc")
+  .attr("x",d=>(d.part=="primary"? -180: 120))
+  .attr("y",d=>+6)
+  .text(function(d){ return d3.format("0.0%")(d.percent)})
+  .attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+
+function mouseover(d){
+  bp.mouseover(d);
+  g.selectAll(".mainBars")
+  .select(".perc")
+  .text(function(d){ return d3.format("0.0%")(d.percent)})
+}
+function mouseout(d){
+  bp.mouseout(d);
+  g.selectAll(".mainBars")
+    .select(".perc")
+  .text(function(d){ return d3.format("0.0%")(d.percent)})
+}
+</script>
+</body>
+</html>

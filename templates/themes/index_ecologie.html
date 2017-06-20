@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="/static/build/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <script src="/static/build/nv.d3.js"></script>
+
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body, #chart1, svg {
+            margin: 0px;
+            padding: 10px;
+            height: 90%;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chart1" class='with-3d-shadow with-transitions'>
+    <svg></svg>
+</div>
+
+<script>
+
+    var long_short_data = [
+        {
+            values: [
+                {
+                    "label" : "Le Pen" ,
+                    "value" : 0.54
+                } ,
+                {
+                    "label" : "Fillon" ,
+                    "value" : 0.36
+                } ,
+                {
+                    "label" : "Macron" ,
+                    "value" : 0.59
+                } ,
+                {
+                    "label" : "Mélenchon" ,
+                    "value" : 0.71
+                } ,
+                {
+                    "label" : "Hamon" ,
+                    "value" : 1.11
+                } ,
+                {
+                    "label" : "Dupont-Aignan" ,
+                    "value" : 0
+                } ,
+                {
+                    "label" : "Asselineau" ,
+                    "value" : 0
+                } ,
+                {
+                    "label" : "Cheminade" ,
+                    "value" : 0
+                } ,
+                {
+                    "label" : "Lassalle" ,
+                    "value" : 0
+                } ,
+                {
+                    "label" : "Poutou" ,
+                    "value" : 0
+                } ,
+                {
+                    "label" : "Arthaud" ,
+                    "value" : 0
+                }
+            ]
+        }
+    ];
+
+
+    var chart;
+    nv.addGraph(function() {
+        chart = nv.models.multiBarHorizontalChart()
+            .x(function(d) { return d.label })
+            .y(function(d) { return d.value/100 })
+            .barColor(d3.scale.category20().range())
+            .duration(250)
+            .legendPosition("bottom")
+            .controlsPosition("bottom")
+            .showControls(false)
+            .showValues(true)
+            .showLegend(false)
+            .margin({left: 100})
+            .stacked(true);
+
+
+        chart.yAxis.tickFormat(d3.format('.1%'));
+
+        chart.xAxis.axisLabel('Part des articles associés à ce thème').axisLabelDistance(50);
+
+        d3.select('#chart1 svg')
+            .datum(long_short_data)
+            .call(chart);
+
+        nv.utils.windowResize(chart.update);
+
+        chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+        chart.state.dispatch.on('change', function(state){
+            nv.log('state', JSON.stringify(state));
+        });
+        return chart;
+    });
+
+</script>
+</body>
+</html>
